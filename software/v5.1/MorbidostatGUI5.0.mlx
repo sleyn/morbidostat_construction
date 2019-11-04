@@ -1,0 +1,2771 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<meguno-link-project version="1.0">
+  <culture>en-US</culture>
+  <data>
+    <shared-visualizer-data>
+      <data id="UploadManagerData" name="" instance-id="73366ab5-14c3-494f-8603-693b754e2743">
+        <verify>true</verify>
+        <uploads />
+      </data>
+      <data id="SerialMonitorData" name="" instance-id="0b14566f-0bf1-4b50-87a8-c635d305bb57">
+        <send-cr-default>true</send-cr-default>
+        <send-lf-default>true</send-lf-default>
+        <word-wrap-default>true</word-wrap-default>
+        <include-date>false</include-date>
+        <include-time>false</include-time>
+        <include-custom>false</include-custom>
+        <custom-time-stamp />
+        <clear-on-send>false</clear-on-send>
+        <message-history>
+          <item>!Fish</item>
+          <item>!Fish 5</item>
+          <item>!Turtle</item>
+          <item>!Lemon</item>
+          <item>!GetDuration</item>
+          <item>!GetInterval</item>
+          <item>!SetDuration 20</item>
+          <item>!SetInterval 300</item>
+        </message-history>
+      </data>
+      <data id="DefaultPlotConfigurationData" name="" instance-id="20ce01c1-546c-4ba4-a0ee-b9b3afcba6e4">
+        <show-summary-table>false</show-summary-table>
+        <show-legend>true</show-legend>
+        <default-symbol-size>4</default-symbol-size>
+        <default-line-width>1</default-line-width>
+        <default-dash-style>Solid</default-dash-style>
+        <default-visibility>true</default-visibility>
+        <next-color>3</next-color>
+        <next-symbol>1</next-symbol>
+        <series-styles>
+          <style name="Direct">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Solid</LineStyle>
+              <LineColor>Magenta</LineColor>
+              <LineWidth>2</LineWidth>
+              <SymbolType>Square</SymbolType>
+              <SymbolColor>Magenta</SymbolColor>
+              <SymbolSize>5</SymbolSize>
+              <FilledSymbol>false</FilledSymbol>
+              <Visible>true</Visible>
+              <AxisIndex>0</AxisIndex>
+            </SeriesStyle>
+          </style>
+          <style name="Tube1">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Solid</LineStyle>
+              <LineColor>Red</LineColor>
+              <LineWidth>1</LineWidth>
+              <SymbolType>Diamond</SymbolType>
+              <SymbolColor>Red</SymbolColor>
+              <SymbolSize>4</SymbolSize>
+              <FilledSymbol>false</FilledSymbol>
+              <Visible>true</Visible>
+              <AxisIndex>0</AxisIndex>
+            </SeriesStyle>
+          </style>
+          <style name="Tube2">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Solid</LineStyle>
+              <LineColor>Lime</LineColor>
+              <LineWidth>1</LineWidth>
+              <SymbolType>HDash</SymbolType>
+              <SymbolColor>Lime</SymbolColor>
+              <SymbolSize>4</SymbolSize>
+              <FilledSymbol>false</FilledSymbol>
+              <Visible>true</Visible>
+              <AxisIndex>0</AxisIndex>
+            </SeriesStyle>
+          </style>
+          <style name="Tube3">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Solid</LineStyle>
+              <LineColor>Blue</LineColor>
+              <LineWidth>1</LineWidth>
+              <SymbolType>Plus</SymbolType>
+              <SymbolColor>Blue</SymbolColor>
+              <SymbolSize>4</SymbolSize>
+              <FilledSymbol>false</FilledSymbol>
+              <Visible>true</Visible>
+              <AxisIndex>0</AxisIndex>
+            </SeriesStyle>
+          </style>
+          <style name="Tube4">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Solid</LineStyle>
+              <LineColor>Black</LineColor>
+              <LineWidth>1</LineWidth>
+              <SymbolType>Square</SymbolType>
+              <SymbolColor>Black</SymbolColor>
+              <SymbolSize>4</SymbolSize>
+              <FilledSymbol>false</FilledSymbol>
+              <Visible>true</Visible>
+              <AxisIndex>0</AxisIndex>
+            </SeriesStyle>
+          </style>
+          <style name="Tube5">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Solid</LineStyle>
+              <LineColor>LightSeaGreen</LineColor>
+              <LineWidth>1</LineWidth>
+              <SymbolType>Star</SymbolType>
+              <SymbolColor>LightSeaGreen</SymbolColor>
+              <SymbolSize>4</SymbolSize>
+              <FilledSymbol>false</FilledSymbol>
+              <Visible>true</Visible>
+              <AxisIndex>0</AxisIndex>
+            </SeriesStyle>
+          </style>
+          <style name="Tube6">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Solid</LineStyle>
+              <LineColor>Cyan</LineColor>
+              <LineWidth>1</LineWidth>
+              <SymbolType>Circle</SymbolType>
+              <SymbolColor>Cyan</SymbolColor>
+              <SymbolSize>4</SymbolSize>
+              <FilledSymbol>false</FilledSymbol>
+              <Visible>true</Visible>
+              <AxisIndex>0</AxisIndex>
+            </SeriesStyle>
+          </style>
+          <style name="Tube1-P1">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Solid</LineStyle>
+              <LineColor>Magenta</LineColor>
+              <LineWidth>2</LineWidth>
+              <SymbolType>Star</SymbolType>
+              <SymbolColor>Magenta</SymbolColor>
+              <SymbolSize>5</SymbolSize>
+              <FilledSymbol>false</FilledSymbol>
+              <Visible>true</Visible>
+              <AxisIndex>0</AxisIndex>
+            </SeriesStyle>
+          </style>
+          <style name="Tube1-P2">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Solid</LineStyle>
+              <LineColor>DeepPink</LineColor>
+              <LineWidth>1</LineWidth>
+              <SymbolType>HDash</SymbolType>
+              <SymbolColor>DeepPink</SymbolColor>
+              <SymbolSize>4</SymbolSize>
+              <FilledSymbol>false</FilledSymbol>
+              <Visible>true</Visible>
+              <AxisIndex>0</AxisIndex>
+            </SeriesStyle>
+          </style>
+          <style name="Tube2-P1">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Solid</LineStyle>
+              <LineColor>Red</LineColor>
+              <LineWidth>1</LineWidth>
+              <SymbolType>Plus</SymbolType>
+              <SymbolColor>Red</SymbolColor>
+              <SymbolSize>4</SymbolSize>
+              <FilledSymbol>false</FilledSymbol>
+              <Visible>true</Visible>
+              <AxisIndex>0</AxisIndex>
+            </SeriesStyle>
+          </style>
+          <style name="Tube3-P1">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Solid</LineStyle>
+              <LineColor>Lime</LineColor>
+              <LineWidth>1</LineWidth>
+              <SymbolType>Square</SymbolType>
+              <SymbolColor>Lime</SymbolColor>
+              <SymbolSize>4</SymbolSize>
+              <FilledSymbol>false</FilledSymbol>
+              <Visible>true</Visible>
+              <AxisIndex>0</AxisIndex>
+            </SeriesStyle>
+          </style>
+          <style name="Tube3-P2">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Solid</LineStyle>
+              <LineColor>Blue</LineColor>
+              <LineWidth>1</LineWidth>
+              <SymbolType>Star</SymbolType>
+              <SymbolColor>Blue</SymbolColor>
+              <SymbolSize>4</SymbolSize>
+              <FilledSymbol>false</FilledSymbol>
+              <Visible>true</Visible>
+              <AxisIndex>0</AxisIndex>
+            </SeriesStyle>
+          </style>
+          <style name="Tube4-P1">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Solid</LineStyle>
+              <LineColor>Black</LineColor>
+              <LineWidth>1</LineWidth>
+              <SymbolType>Circle</SymbolType>
+              <SymbolColor>Black</SymbolColor>
+              <SymbolSize>4</SymbolSize>
+              <FilledSymbol>false</FilledSymbol>
+              <Visible>true</Visible>
+              <AxisIndex>0</AxisIndex>
+            </SeriesStyle>
+          </style>
+          <style name="Tube4-P2">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Solid</LineStyle>
+              <LineColor>LightSeaGreen</LineColor>
+              <LineWidth>1</LineWidth>
+              <SymbolType>Diamond</SymbolType>
+              <SymbolColor>LightSeaGreen</SymbolColor>
+              <SymbolSize>4</SymbolSize>
+              <FilledSymbol>false</FilledSymbol>
+              <Visible>true</Visible>
+              <AxisIndex>0</AxisIndex>
+            </SeriesStyle>
+          </style>
+          <style name="Tube5-P1">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Solid</LineStyle>
+              <LineColor>Yellow</LineColor>
+              <LineWidth>2</LineWidth>
+              <SymbolType>Star</SymbolType>
+              <SymbolColor>Yellow</SymbolColor>
+              <SymbolSize>5</SymbolSize>
+              <FilledSymbol>false</FilledSymbol>
+              <Visible>true</Visible>
+              <AxisIndex>0</AxisIndex>
+            </SeriesStyle>
+          </style>
+          <style name="Tube5-P2">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Solid</LineStyle>
+              <LineColor>Yellow</LineColor>
+              <LineWidth>2</LineWidth>
+              <SymbolType>Square</SymbolType>
+              <SymbolColor>Yellow</SymbolColor>
+              <SymbolSize>5</SymbolSize>
+              <FilledSymbol>false</FilledSymbol>
+              <Visible>true</Visible>
+              <AxisIndex>0</AxisIndex>
+            </SeriesStyle>
+          </style>
+          <style name="Tube6-P1">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Solid</LineStyle>
+              <LineColor>DeepPink</LineColor>
+              <LineWidth>1</LineWidth>
+              <SymbolType>Square</SymbolType>
+              <SymbolColor>DeepPink</SymbolColor>
+              <SymbolSize>4</SymbolSize>
+              <FilledSymbol>false</FilledSymbol>
+              <Visible>true</Visible>
+              <AxisIndex>0</AxisIndex>
+            </SeriesStyle>
+          </style>
+          <style name="Tube6-P2">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Solid</LineStyle>
+              <LineColor>Red</LineColor>
+              <LineWidth>1</LineWidth>
+              <SymbolType>Star</SymbolType>
+              <SymbolColor>Red</SymbolColor>
+              <SymbolSize>4</SymbolSize>
+              <FilledSymbol>false</FilledSymbol>
+              <Visible>true</Visible>
+              <AxisIndex>0</AxisIndex>
+            </SeriesStyle>
+          </style>
+          <style name="Tube2-P2">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Solid</LineStyle>
+              <LineColor>Lime</LineColor>
+              <LineWidth>1</LineWidth>
+              <SymbolType>Circle</SymbolType>
+              <SymbolColor>Lime</SymbolColor>
+              <SymbolSize>4</SymbolSize>
+              <FilledSymbol>false</FilledSymbol>
+              <Visible>true</Visible>
+              <AxisIndex>0</AxisIndex>
+            </SeriesStyle>
+          </style>
+        </series-styles>
+      </data>
+      <data id="LogFileData" name="" instance-id="364d39fc-d47a-4b0a-8963-88179271fa9d">
+        <include-date>true</include-date>
+        <include-time>true</include-time>
+      </data>
+    </shared-visualizer-data>
+  </data>
+  <reporting>
+    <generate-scheduled-reports>false</generate-scheduled-reports>
+    <destinations>
+      <report-to-folder>
+        <last-report-number>0</last-report-number>
+        <folder-path>d:\Users\Paul\Documents</folder-path>
+        <use-sub-folder>true</use-sub-folder>
+        <sub-folder-pattern>Report {Seq}</sub-folder-pattern>
+        <enabled>true</enabled>
+        <period>PT1H</period>
+        <last-sent>0001-01-01T00:00:00</last-sent>
+      </report-to-folder>
+    </destinations>
+  </reporting>
+  <serial-sources>
+    <default>1</default>
+    <sources>
+      <source type="SharedRS232Port">
+        <id>1</id>
+        <display-name>Morbidostat</display-name>
+        <sort-order>0</sort-order>
+        <port-name>
+          <type>Fixed</type>
+          <port>COM4</port>
+        </port-name>
+        <baud-rate>9600</baud-rate>
+        <data-bits>8</data-bits>
+        <handshaking>None</handshaking>
+        <parity>None</parity>
+        <stop-bits>One</stop-bits>
+        <disable-dtr>false</disable-dtr>
+        <disable-rts>false</disable-rts>
+        <reset-toggles-dtr>true</reset-toggles-dtr>
+        <reset-toggles-rts>true</reset-toggles-rts>
+      </source>
+      <source type="SharedRS232Port">
+        <id>2</id>
+        <display-name>Agitation</display-name>
+        <sort-order>0</sort-order>
+        <port-name>
+          <type>Fixed</type>
+          <port>COM6</port>
+        </port-name>
+        <baud-rate>9600</baud-rate>
+        <data-bits>8</data-bits>
+        <handshaking>None</handshaking>
+        <parity>None</parity>
+        <stop-bits>One</stop-bits>
+        <disable-dtr>false</disable-dtr>
+        <disable-rts>false</disable-rts>
+        <reset-toggles-dtr>true</reset-toggles-dtr>
+        <reset-toggles-rts>true</reset-toggles-rts>
+      </source>
+    </sources>
+    <connect-sources>
+      <source>1</source>
+    </connect-sources>
+  </serial-sources>
+  <windows>
+    <window>
+      <DockPanel FormatVersion="1.0" DockLeftPortion="0.25" DockRightPortion="220" DockTopPortion="0.25" DockBottomPortion="0.25" ActiveDocumentPane="4" ActivePane="4">
+        <Contents Count="9">
+          <Content ID="0" PersistString="InterfacePanel" AutoHidePortion="0.25" IsHidden="False" IsFloat="False">
+            <design type="InterfacePanel">
+              <children child-list="Controls">
+                <component type="IPControlLibrary.Controls.IPButton, IPControlLibrary, Version=1.19.18001.101, Culture=neutral, PublicKeyToken=null" name="ReColor">
+                  <properties>
+                    <property name="OnClickSend">!ColRes\r</property>
+                    <property name="Text">Reset Colors</property>
+                    <property name="Location">300, 140</property>
+                    <property name="Name">ReColor</property>
+                    <property name="Size">75, 23</property>
+                    <property name="TabIndex">67</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPCheckBox, IPControlLibrary, Version=1.19.18001.101, Culture=neutral, PublicKeyToken=null" name="Tube6">
+                  <properties>
+                    <property name="OnCheckChangedSend">!Tube6 [Tube6.Checked?"1":"0"]\r</property>
+                    <property name="Text">On/Off</property>
+                    <property name="Location">103, 643</property>
+                    <property name="Name">Tube6</property>
+                    <property name="Size">104, 24</property>
+                    <property name="TabIndex">66</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPCheckBox, IPControlLibrary, Version=1.19.18001.101, Culture=neutral, PublicKeyToken=null" name="Tube5">
+                  <properties>
+                    <property name="OnCheckChangedSend">!Tube5 [Tube5.Checked?"1":"0"]\r</property>
+                    <property name="Text">On/Off</property>
+                    <property name="Location">103, 620</property>
+                    <property name="Name">Tube5</property>
+                    <property name="Size">104, 24</property>
+                    <property name="TabIndex">65</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPCheckBox, IPControlLibrary, Version=1.19.18001.101, Culture=neutral, PublicKeyToken=null" name="Tube4">
+                  <properties>
+                    <property name="OnCheckChangedSend">!Tube4 [Tube4.Checked?"1":"0"]\r</property>
+                    <property name="Text">On/Off</property>
+                    <property name="Location">103, 594</property>
+                    <property name="Name">Tube4</property>
+                    <property name="Size">104, 24</property>
+                    <property name="TabIndex">64</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPCheckBox, IPControlLibrary, Version=1.19.18001.101, Culture=neutral, PublicKeyToken=null" name="Tube3">
+                  <properties>
+                    <property name="OnCheckChangedSend">!Tube3 [Tube3.Checked?"1":"0"]\r</property>
+                    <property name="Text">On/Off</property>
+                    <property name="Location">103, 571</property>
+                    <property name="Name">Tube3</property>
+                    <property name="Size">104, 24</property>
+                    <property name="TabIndex">63</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPCheckBox, IPControlLibrary, Version=1.19.18001.101, Culture=neutral, PublicKeyToken=null" name="Tube2">
+                  <properties>
+                    <property name="OnCheckChangedSend">!Tube2 [Tube2.Checked?"1":"0"]\r</property>
+                    <property name="Text">On/Off</property>
+                    <property name="Location">103, 548</property>
+                    <property name="Name">Tube2</property>
+                    <property name="Size">104, 24</property>
+                    <property name="TabIndex">62</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPCheckBox, IPControlLibrary, Version=1.19.18001.101, Culture=neutral, PublicKeyToken=null" name="Tube1">
+                  <properties>
+                    <property name="OnCheckChangedSend">!Tube1 [Tube1.Checked?"1":"0"]\r</property>
+                    <property name="Text">On/Off</property>
+                    <property name="Location">103, 525</property>
+                    <property name="Name">Tube1</property>
+                    <property name="Size">104, 24</property>
+                    <property name="TabIndex">61</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label24">
+                  <properties>
+                    <property name="Text">Tube 5</property>
+                    <property name="Location">44, 621</property>
+                    <property name="Name">Label24</property>
+                    <property name="Size">100, 23</property>
+                    <property name="TabIndex">60</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label23">
+                  <properties>
+                    <property name="Text">Tube 6</property>
+                    <property name="Location">44, 644</property>
+                    <property name="Name">Label23</property>
+                    <property name="Size">100, 23</property>
+                    <property name="TabIndex">59</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label22">
+                  <properties>
+                    <property name="Text">Tube 2</property>
+                    <property name="Location">44, 552</property>
+                    <property name="Name">Label22</property>
+                    <property name="Size">100, 23</property>
+                    <property name="TabIndex">58</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label19">
+                  <properties>
+                    <property name="Text">Tube 3</property>
+                    <property name="Location">44, 575</property>
+                    <property name="Name">Label19</property>
+                    <property name="Size">100, 23</property>
+                    <property name="TabIndex">55</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label18">
+                  <properties>
+                    <property name="Text">Tube 4</property>
+                    <property name="Location">44, 598</property>
+                    <property name="Name">Label18</property>
+                    <property name="Size">100, 23</property>
+                    <property name="TabIndex">54</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label2">
+                  <properties>
+                    <property name="Text">Tube 1</property>
+                    <property name="Location">44, 529</property>
+                    <property name="Name">Label2</property>
+                    <property name="Size">100, 23</property>
+                    <property name="TabIndex">53</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label3">
+                  <properties>
+                    <property name="Text">Tube Selection</property>
+                    <property name="Font">Microsoft Sans Serif, 9.75pt, style=Bold</property>
+                    <property name="Location">44, 506</property>
+                    <property name="Name">Label3</property>
+                    <property name="Size">163, 23</property>
+                    <property name="TabIndex">52</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPProgressBar, IPControlLibrary, Version=1.19.18001.101, Culture=neutral, PublicKeyToken=null" name="TempLight">
+                  <properties>
+                    <property name="Maximum">1</property>
+                    <property name="Step">1</property>
+                    <property name="Location">264, 291</property>
+                    <property name="Name">TempLight</property>
+                    <property name="Size">19, 23</property>
+                    <property name="TabIndex">50</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPProgressBar, IPControlLibrary, Version=1.19.18001.101, Culture=neutral, PublicKeyToken=null" name="ODLight">
+                  <properties>
+                    <property name="Maximum">1</property>
+                    <property name="Step">1</property>
+                    <property name="Location">264, 140</property>
+                    <property name="Name">ODLight</property>
+                    <property name="Size">19, 23</property>
+                    <property name="TabIndex">49</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPButton, IPControlLibrary, Version=1.19.18001.101, Culture=neutral, PublicKeyToken=null" name="IPButton10">
+                  <properties>
+                    <property name="OnClickSend">!ODOff\r</property>
+                    <property name="Text">Off</property>
+                    <property name="Location">142, 140</property>
+                    <property name="Name">IPButton10</property>
+                    <property name="Size">75, 23</property>
+                    <property name="TabIndex">45</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPButton, IPControlLibrary, Version=1.19.18001.101, Culture=neutral, PublicKeyToken=null" name="IPButton9">
+                  <properties>
+                    <property name="OnClickSend">!ODOn\r</property>
+                    <property name="Text">On</property>
+                    <property name="Location">44, 140</property>
+                    <property name="Name">IPButton9</property>
+                    <property name="Size">75, 23</property>
+                    <property name="TabIndex">44</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label17">
+                  <properties>
+                    <property name="Text">OD Readings</property>
+                    <property name="Font">Microsoft Sans Serif, 9.75pt, style=Bold</property>
+                    <property name="Location">44, 103</property>
+                    <property name="Name">Label17</property>
+                    <property name="Size">146, 23</property>
+                    <property name="TabIndex">43</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPProgressBar, IPControlLibrary, Version=1.19.18001.101, Culture=neutral, PublicKeyToken=null" name="AutDilLight">
+                  <properties>
+                    <property name="Maximum">1</property>
+                    <property name="Step">1</property>
+                    <property name="Location">264, 218</property>
+                    <property name="Name">AutDilLight</property>
+                    <property name="Size">19, 23</property>
+                    <property name="TabIndex">42</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPButton, IPControlLibrary, Version=1.19.18001.101, Culture=neutral, PublicKeyToken=null" name="IPButton8">
+                  <properties>
+                    <property name="OnClickSend">!AutDilOff\r</property>
+                    <property name="Text">Off</property>
+                    <property name="Location">142, 218</property>
+                    <property name="Name">IPButton8</property>
+                    <property name="Size">75, 23</property>
+                    <property name="TabIndex">41</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPButton, IPControlLibrary, Version=1.19.18001.101, Culture=neutral, PublicKeyToken=null" name="IPButton7">
+                  <properties>
+                    <property name="OnClickSend">!AutDilOn\r</property>
+                    <property name="Text">On</property>
+                    <property name="Location">44, 218</property>
+                    <property name="Name">IPButton7</property>
+                    <property name="Size">75, 23</property>
+                    <property name="TabIndex">40</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPButton, IPControlLibrary, Version=1.19.18001.101, Culture=neutral, PublicKeyToken=null" name="IPButton6">
+                  <properties>
+                    <property name="OnClickSend">!TempOff\r</property>
+                    <property name="Text">Off</property>
+                    <property name="Location">142, 291</property>
+                    <property name="Name">IPButton6</property>
+                    <property name="Size">75, 23</property>
+                    <property name="TabIndex">39</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPButton, IPControlLibrary, Version=1.19.18001.101, Culture=neutral, PublicKeyToken=null" name="IPButton5">
+                  <properties>
+                    <property name="OnClickSend">!TempOn\r</property>
+                    <property name="Text">On</property>
+                    <property name="Location">44, 291</property>
+                    <property name="Name">IPButton5</property>
+                    <property name="Size">75, 23</property>
+                    <property name="TabIndex">38</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPButton, IPControlLibrary, Version=1.19.18001.101, Culture=neutral, PublicKeyToken=null" name="TempMax">
+                  <properties>
+                    <property name="OnClickSend">!TempMax\r</property>
+                    <property name="Text">Reset Max</property>
+                    <property name="Location">216, 412</property>
+                    <property name="Name">TempMax</property>
+                    <property name="Size">70, 23</property>
+                    <property name="TabIndex">34</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPButton, IPControlLibrary, Version=1.19.18001.101, Culture=neutral, PublicKeyToken=null" name="TempMin">
+                  <properties>
+                    <property name="OnClickSend">!TempMin\r</property>
+                    <property name="Text">Reset Min</property>
+                    <property name="Location">216, 455</property>
+                    <property name="Name">TempMin</property>
+                    <property name="Size">78, 23</property>
+                    <property name="TabIndex">33</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPNumericUpDown, IPControlLibrary, Version=1.19.18001.101, Culture=neutral, PublicKeyToken=null" name="MinTemp">
+                  <children child-list="Controls" />
+                  <properties>
+                    <property name="OnValueChangedSend" />
+                    <property name="DecimalPlaces">2</property>
+                    <property name="Increment">0.001</property>
+                    <property name="InterceptArrowKeys">False</property>
+                    <property name="ReadOnly">True</property>
+                    <property name="Location">122, 455</property>
+                    <property name="Name">MinTemp</property>
+                    <property name="Size">61, 20</property>
+                    <property name="TabIndex">30</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPNumericUpDown, IPControlLibrary, Version=1.19.18001.101, Culture=neutral, PublicKeyToken=null" name="MaxTemp">
+                  <children child-list="Controls" />
+                  <properties>
+                    <property name="OnValueChangedSend" />
+                    <property name="DecimalPlaces">2</property>
+                    <property name="Increment">0.001</property>
+                    <property name="InterceptArrowKeys">False</property>
+                    <property name="ReadOnly">True</property>
+                    <property name="Location">122, 412</property>
+                    <property name="Name">MaxTemp</property>
+                    <property name="Size">61, 20</property>
+                    <property name="TabIndex">29</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPNumericUpDown, IPControlLibrary, Version=1.19.18001.101, Culture=neutral, PublicKeyToken=null" name="CurrentTemp">
+                  <children child-list="Controls" />
+                  <properties>
+                    <property name="OnValueChangedSend" />
+                    <property name="DecimalPlaces">2</property>
+                    <property name="Increment">0.001</property>
+                    <property name="ForeColor">Black</property>
+                    <property name="ReadOnly">True</property>
+                    <property name="AllowDrop">True</property>
+                    <property name="Font">Microsoft Sans Serif, 8.25pt, style=Bold</property>
+                    <property name="Location">122, 372</property>
+                    <property name="Name">CurrentTemp</property>
+                    <property name="Size">61, 20</property>
+                    <property name="TabIndex">28</property>
+                    <property name="ImeMode">NoControl</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPNumericUpDown, IPControlLibrary, Version=1.19.18001.101, Culture=neutral, PublicKeyToken=null" name="SetTemp">
+                  <children child-list="Controls" />
+                  <properties>
+                    <property name="OnValueChangedSend">!SetTemp [SetTemp.Value]\r</property>
+                    <property name="Location">122, 335</property>
+                    <property name="Name">SetTemp</property>
+                    <property name="Size">35, 20</property>
+                    <property name="TabIndex">27</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label15">
+                  <properties>
+                    <property name="Text">Min Temp</property>
+                    <property name="Location">44, 455</property>
+                    <property name="Name">Label15</property>
+                    <property name="Size">56, 23</property>
+                    <property name="TabIndex">26</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label14">
+                  <properties>
+                    <property name="Text">Max Temp</property>
+                    <property name="Location">44, 412</property>
+                    <property name="Name">Label14</property>
+                    <property name="Size">56, 23</property>
+                    <property name="TabIndex">25</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label13">
+                  <properties>
+                    <property name="Text">Current Temp</property>
+                    <property name="Location">44, 372</property>
+                    <property name="Name">Label13</property>
+                    <property name="Size">56, 23</property>
+                    <property name="TabIndex">24</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label12">
+                  <properties>
+                    <property name="Text">Set Temp</property>
+                    <property name="Location">44, 335</property>
+                    <property name="Name">Label12</property>
+                    <property name="Size">56, 23</property>
+                    <property name="TabIndex">23</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label11">
+                  <properties>
+                    <property name="Text">Temperature Control</property>
+                    <property name="Font">Microsoft Sans Serif, 9.75pt, style=Bold</property>
+                    <property name="Location">44, 265</property>
+                    <property name="Name">Label11</property>
+                    <property name="Size">163, 23</property>
+                    <property name="TabIndex">22</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label7a">
+                  <properties>
+                    <property name="Text">Automatic Dilution</property>
+                    <property name="Font">Microsoft Sans Serif, 9.75pt, style=Bold</property>
+                    <property name="Location">44, 183</property>
+                    <property name="Name">Label7a</property>
+                    <property name="Size">146, 23</property>
+                    <property name="TabIndex">15</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label5">
+                  <properties>
+                    <property name="AutoSize">True</property>
+                    <property name="Text">Major Controls</property>
+                    <property name="Font">Microsoft Sans Serif, 14.25pt, style=Bold</property>
+                    <property name="ForeColor">Blue</property>
+                    <property name="Location">44, 19</property>
+                    <property name="Name">Label5</property>
+                    <property name="Size">145, 24</property>
+                    <property name="TabIndex">3</property>
+                  </properties>
+                </component>
+              </children>
+              <properties>
+                <property name="Name">UserControl1</property>
+                <property name="Size">480, 750</property>
+              </properties>
+              <components>
+                <component type="IPControlLibrary.Protocols.MLPMessageProcessor.MLPUIMessageProcessor, IPControlLibrary, Version=1.19.18001.101, Culture=neutral, PublicKeyToken=null" name="MLPUIMessageProcessor1">
+                  <properties>
+                    <property name="ChannelName">Control</property>
+                  </properties>
+                </component>
+              </components>
+            </design>
+            <values>
+              <value name="ReColor">
+                <property name="Text"><![CDATA[Reset Colors]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="Tube6">
+                <property name="Checked"><![CDATA[True]]></property>
+                <property name="CheckedAsByte"><![CDATA[1]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="Tube5">
+                <property name="Checked"><![CDATA[True]]></property>
+                <property name="CheckedAsByte"><![CDATA[1]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="Tube4">
+                <property name="Checked"><![CDATA[True]]></property>
+                <property name="CheckedAsByte"><![CDATA[1]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="Tube3">
+                <property name="Checked"><![CDATA[True]]></property>
+                <property name="CheckedAsByte"><![CDATA[1]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="Tube2">
+                <property name="Checked"><![CDATA[True]]></property>
+                <property name="CheckedAsByte"><![CDATA[1]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="Tube1">
+                <property name="Checked"><![CDATA[True]]></property>
+                <property name="CheckedAsByte"><![CDATA[1]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="TempLight">
+                <property name="Value"><![CDATA[0]]></property>
+                <property name="Minimum"><![CDATA[0]]></property>
+                <property name="Maximum"><![CDATA[1]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="ODLight">
+                <property name="Value"><![CDATA[0]]></property>
+                <property name="Minimum"><![CDATA[0]]></property>
+                <property name="Maximum"><![CDATA[1]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="IPButton10">
+                <property name="Text"><![CDATA[Off]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="IPButton9">
+                <property name="Text"><![CDATA[On]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="AutDilLight">
+                <property name="Value"><![CDATA[0]]></property>
+                <property name="Minimum"><![CDATA[0]]></property>
+                <property name="Maximum"><![CDATA[1]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="IPButton8">
+                <property name="Text"><![CDATA[Off]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="IPButton7">
+                <property name="Text"><![CDATA[On]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="IPButton6">
+                <property name="Text"><![CDATA[Off]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="IPButton5">
+                <property name="Text"><![CDATA[On]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="TempMax">
+                <property name="Text"><![CDATA[Reset Max]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="TempMin">
+                <property name="Text"><![CDATA[Reset Min]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="MinTemp">
+                <property name="Value"><![CDATA[20.437]]></property>
+                <property name="DoubleValue"><![CDATA[20.437]]></property>
+                <property name="Minimum"><![CDATA[0]]></property>
+                <property name="Maximum"><![CDATA[100]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="MaxTemp">
+                <property name="Value"><![CDATA[20.500]]></property>
+                <property name="DoubleValue"><![CDATA[20.5]]></property>
+                <property name="Minimum"><![CDATA[0]]></property>
+                <property name="Maximum"><![CDATA[100]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="CurrentTemp">
+                <property name="Value"><![CDATA[20.500]]></property>
+                <property name="DoubleValue"><![CDATA[20.5]]></property>
+                <property name="Minimum"><![CDATA[0]]></property>
+                <property name="Maximum"><![CDATA[100]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="SetTemp">
+                <property name="Value"><![CDATA[37]]></property>
+                <property name="DoubleValue"><![CDATA[37]]></property>
+                <property name="Minimum"><![CDATA[0]]></property>
+                <property name="Maximum"><![CDATA[100]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+            </values>
+            <value-store />
+            <instance-id>463a7325-ca8c-4835-a12a-b6fcfbcbb804</instance-id>
+            <TabTitle>Control</TabTitle>
+            <ShowSourceInTitle>false</ShowSourceInTitle>
+            <ShowPortInTitle>false</ShowPortInTitle>
+            <SourceId>1</SourceId>
+          </Content>
+          <Content ID="1" PersistString="SourceManager" AutoHidePortion="0.25" IsHidden="False" IsFloat="False">
+            <instance-id>fa317031-c0fa-4795-b13d-b69b95e13a06</instance-id>
+            <TabTitle>Connection Manager</TabTitle>
+            <ShowSourceInTitle>true</ShowSourceInTitle>
+            <ShowPortInTitle>false</ShowPortInTitle>
+            <SourceId>1</SourceId>
+          </Content>
+          <Content ID="2" PersistString="mlpChart" AutoHidePortion="0.25" IsHidden="False" IsFloat="False">
+            <instance-id>e7dc4eae-4363-47ac-bead-1ce72c79811b</instance-id>
+            <TabTitle>Optical Density Plot</TabTitle>
+            <ShowSourceInTitle>false</ShowSourceInTitle>
+            <ShowPortInTitle>false</ShowPortInTitle>
+            <SourceId>1</SourceId>
+            <reporting-enabled>false</reporting-enabled>
+            <show-summary>false</show-summary>
+            <splitter-distance>330</splitter-distance>
+            <Channels>
+              <auto>true</auto>
+              <default>false</default>
+            </Channels>
+            <reporting>
+              <width>640</width>
+              <height>480</height>
+              <dpi>96</dpi>
+              <anti-alias>true</anti-alias>
+              <filename-pattern>Graph {Seq}</filename-pattern>
+              <format>b96b3caf-0728-11d3-9d7b-0000f81ef32e</format>
+            </reporting>
+            <max-data-points>50000</max-data-points>
+            <title>
+              <text>Turbidimeter</text>
+              <visible>true</visible>
+              <font>
+                <color>-16777216</color>
+                <family>Microsoft Sans Serif</family>
+                <bold>true</bold>
+                <italic>false</italic>
+                <size>16</size>
+              </font>
+            </title>
+            <x-axis>
+              <minimum>43508.502777777612</minimum>
+              <maximum>43508.533333333209</maximum>
+              <major-step>15</major-step>
+              <minor-step>5</minor-step>
+              <major-unit>Minute</major-unit>
+              <minor-unit>Minute</minor-unit>
+              <minimum-auto>true</minimum-auto>
+              <maximum-auto>true</maximum-auto>
+              <major-step-auto>true</major-step-auto>
+              <minor-step-auto>true</minor-step-auto>
+              <visible>true</visible>
+              <text>Time</text>
+              <visible>true</visible>
+              <font>
+                <color>-16777216</color>
+                <family>Microsoft Sans Serif</family>
+                <bold>true</bold>
+                <italic>false</italic>
+                <size>14</size>
+              </font>
+            </x-axis>
+            <y-axis>
+              <minimum>-0.5</minimum>
+              <maximum>2</maximum>
+              <major-step>0.5</major-step>
+              <minor-step>0.1</minor-step>
+              <major-unit>Day</major-unit>
+              <minor-unit>Day</minor-unit>
+              <minimum-auto>true</minimum-auto>
+              <maximum-auto>true</maximum-auto>
+              <major-step-auto>true</major-step-auto>
+              <minor-step-auto>true</minor-step-auto>
+              <visible>true</visible>
+              <text>OD</text>
+              <visible>true</visible>
+              <font>
+                <color>-16777216</color>
+                <family>Microsoft Sans Serif</family>
+                <bold>true</bold>
+                <italic>false</italic>
+                <size>14</size>
+              </font>
+            </y-axis>
+            <y2-axis>
+              <minimum>-0.5</minimum>
+              <maximum>2</maximum>
+              <major-step>0.5</major-step>
+              <minor-step>0.1</minor-step>
+              <major-unit>Day</major-unit>
+              <minor-unit>Day</minor-unit>
+              <minimum-auto>true</minimum-auto>
+              <maximum-auto>true</maximum-auto>
+              <major-step-auto>true</major-step-auto>
+              <minor-step-auto>true</minor-step-auto>
+              <visible>false</visible>
+              <text />
+              <visible>false</visible>
+              <font>
+                <color>-16777216</color>
+                <family>Microsoft Sans Serif</family>
+                <bold>true</bold>
+                <italic>false</italic>
+                <size>14</size>
+              </font>
+            </y2-axis>
+            <background-fill>
+              <color-1>-1</color-1>
+              <color-2>-46</color-2>
+              <angle>-45</angle>
+            </background-fill>
+            <run>false</run>
+          </Content>
+          <Content ID="3" PersistString="FileWriter" AutoHidePortion="0.25" IsHidden="False" IsFloat="False">
+            <Channels>
+              <auto>true</auto>
+              <default>true</default>
+            </Channels>
+            <file-path>
+              <path>C:\Users\admin\Documents\Data Logs\EC_Megasequencing_1-8-2019\OD.txt</path>
+              <relative>false</relative>
+            </file-path>
+            <IncludeDate>true</IncludeDate>
+            <IncludeTime>true</IncludeTime>
+            <InsertTimestamp>true</InsertTimestamp>
+            <AutoStartLogging>false</AutoStartLogging>
+            <IncludeDateInFilename>false</IncludeDateInFilename>
+            <IncludeTimeInFilename>false</IncludeTimeInFilename>
+            <instance-id>d3d0b51d-f24e-423f-a25e-a24e1bf4eabe</instance-id>
+            <TabTitle>Message Logger</TabTitle>
+            <ShowSourceInTitle>true</ShowSourceInTitle>
+            <ShowPortInTitle>false</ShowPortInTitle>
+            <SourceId>1</SourceId>
+            <reporting-enabled>false</reporting-enabled>
+          </Content>
+          <Content ID="4" PersistString="InterfacePanel" AutoHidePortion="0.25" IsHidden="False" IsFloat="False">
+            <design type="InterfacePanel">
+              <children child-list="Controls">
+                <component type="IPControlLibrary.Controls.IPRadioButton, IPControlLibrary, Version=1.25.18329.1125, Culture=neutral, PublicKeyToken=null" name="Turbidostat">
+                  <properties>
+                    <property name="OnCheckChangedSend">![Turbidostat.Name] [Turbidostat.Checked?"1":"0"]\r</property>
+                    <property name="Text">Turbidostat</property>
+                    <property name="Location">24, 603</property>
+                    <property name="Name">Turbidostat</property>
+                    <property name="Size">104, 24</property>
+                    <property name="TabIndex">94</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label36">
+                  <properties>
+                    <property name="Text">P2</property>
+                    <property name="Location">309, 257</property>
+                    <property name="Name">Label36</property>
+                    <property name="Size">49, 23</property>
+                    <property name="TabIndex">93</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label35">
+                  <properties>
+                    <property name="Text">P1</property>
+                    <property name="Location">270, 257</property>
+                    <property name="Name">Label35</property>
+                    <property name="Size">49, 23</property>
+                    <property name="TabIndex">92</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPCheckBox, IPControlLibrary, Version=1.25.18329.1125, Culture=neutral, PublicKeyToken=null" name="Valve6P1">
+                  <properties>
+                    <property name="OnCheckChangedSend">!Valve [Valve6P1.Checked?"10 1":"10 0"]\r</property>
+                    <property name="Location">270, 406</property>
+                    <property name="Name">Valve6P1</property>
+                    <property name="Size">33, 24</property>
+                    <property name="TabIndex">91</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPCheckBox, IPControlLibrary, Version=1.25.18329.1125, Culture=neutral, PublicKeyToken=null" name="Valve5P1">
+                  <properties>
+                    <property name="OnCheckChangedSend">!Valve [Valve5P1.Checked?"8 1":"8 0"]\r</property>
+                    <property name="Location">270, 379</property>
+                    <property name="Name">Valve5P1</property>
+                    <property name="Size">33, 24</property>
+                    <property name="TabIndex">90</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPCheckBox, IPControlLibrary, Version=1.25.18329.1125, Culture=neutral, PublicKeyToken=null" name="Valve4P1">
+                  <properties>
+                    <property name="OnCheckChangedSend">!Valve [Valve4P1.Checked?"6 1":"6 0"]\r</property>
+                    <property name="Location">270, 354</property>
+                    <property name="Name">Valve4P1</property>
+                    <property name="Size">33, 24</property>
+                    <property name="TabIndex">89</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPCheckBox, IPControlLibrary, Version=1.25.18329.1125, Culture=neutral, PublicKeyToken=null" name="Valve3P1">
+                  <properties>
+                    <property name="OnCheckChangedSend">!Valve [Valve3P1.Checked?"4 1":"4 0"]\r</property>
+                    <property name="Location">270, 328</property>
+                    <property name="Name">Valve3P1</property>
+                    <property name="Size">33, 24</property>
+                    <property name="TabIndex">88</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPCheckBox, IPControlLibrary, Version=1.25.18329.1125, Culture=neutral, PublicKeyToken=null" name="Valve2P1">
+                  <properties>
+                    <property name="OnCheckChangedSend">!Valve [Valve2P1.Checked?"2 1":"2 0"]\r</property>
+                    <property name="Location">270, 304</property>
+                    <property name="Name">Valve2P1</property>
+                    <property name="Size">33, 24</property>
+                    <property name="TabIndex">87</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPCheckBox, IPControlLibrary, Version=1.25.18329.1125, Culture=neutral, PublicKeyToken=null" name="Valve1P1">
+                  <properties>
+                    <property name="OnCheckChangedSend">!Valve [Valve1P1.Checked?"0 1":"0 0"]\r</property>
+                    <property name="Location">270, 277</property>
+                    <property name="Name">Valve1P1</property>
+                    <property name="Size">33, 24</property>
+                    <property name="TabIndex">86</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPNumericUpDown, IPControlLibrary, Version=1.25.18329.1125, Culture=neutral, PublicKeyToken=null" name="LTTime">
+                  <children child-list="Controls" />
+                  <properties>
+                    <property name="OnValueChangedSend">!LTTime [LTTime.Value]\r</property>
+                    <property name="Maximum">360</property>
+                    <property name="Location">110, 251</property>
+                    <property name="Name">LTTime</property>
+                    <property name="Size">61, 20</property>
+                    <property name="TabIndex">85</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label34">
+                  <properties>
+                    <property name="Text">Dilution frequency below LT</property>
+                    <property name="Location">7, 248</property>
+                    <property name="Name">Label34</property>
+                    <property name="Size">98, 28</property>
+                    <property name="TabIndex">84</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label33">
+                  <properties>
+                    <property name="Text">Set "-1" to cancel delays</property>
+                    <property name="Location">129, 304</property>
+                    <property name="Name">Label33</property>
+                    <property name="Size">84, 46</property>
+                    <property name="TabIndex">83</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPNumericUpDown, IPControlLibrary, Version=1.25.18329.1125, Culture=neutral, PublicKeyToken=null" name="AirDelay">
+                  <children child-list="Controls" />
+                  <properties>
+                    <property name="OnValueChangedSend">!AirDelay [AirDelay.Value]\r</property>
+                    <property name="Minimum">-1</property>
+                    <property name="Location">76, 307</property>
+                    <property name="Name">AirDelay</property>
+                    <property name="Size">52, 20</property>
+                    <property name="TabIndex">82</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label32">
+                  <properties>
+                    <property name="Text">Air Delay</property>
+                    <property name="Location">3, 307</property>
+                    <property name="Name">Label32</property>
+                    <property name="Size">60, 23</property>
+                    <property name="TabIndex">81</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPCheckBox, IPControlLibrary, Version=1.25.18329.1125, Culture=neutral, PublicKeyToken=null" name="Air">
+                  <properties>
+                    <property name="OnCheckChangedSend">!Air [Air.Checked?"1":"0"]\r</property>
+                    <property name="Text">On/Off</property>
+                    <property name="Location">76, 277</property>
+                    <property name="Name">Air</property>
+                    <property name="Size">71, 24</property>
+                    <property name="TabIndex">80</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label31">
+                  <properties>
+                    <property name="Text">Air Pump</property>
+                    <property name="Location">5, 280</property>
+                    <property name="Name">Label31</property>
+                    <property name="Size">55, 35</property>
+                    <property name="TabIndex">79</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPNumericUpDown, IPControlLibrary, Version=1.25.18329.1125, Culture=neutral, PublicKeyToken=null" name="Lsr6">
+                  <children child-list="Controls" />
+                  <properties>
+                    <property name="OnValueChangedSend">!Lsr6 [Lsr6.Value]\r</property>
+                    <property name="Location">338, 216</property>
+                    <property name="Name">Lsr6</property>
+                    <property name="Size">51, 20</property>
+                    <property name="TabIndex">78</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPNumericUpDown, IPControlLibrary, Version=1.25.18329.1125, Culture=neutral, PublicKeyToken=null" name="Lsr5">
+                  <children child-list="Controls" />
+                  <properties>
+                    <property name="OnValueChangedSend">!Lsr5 [Lsr5.Value]\r</property>
+                    <property name="Location">338, 184</property>
+                    <property name="Name">Lsr5</property>
+                    <property name="Size">51, 20</property>
+                    <property name="TabIndex">77</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPNumericUpDown, IPControlLibrary, Version=1.25.18329.1125, Culture=neutral, PublicKeyToken=null" name="Lsr3">
+                  <children child-list="Controls" />
+                  <properties>
+                    <property name="OnValueChangedSend">!Lsr3 [Lsr3.Value]\r</property>
+                    <property name="Location">338, 112</property>
+                    <property name="Name">Lsr3</property>
+                    <property name="Size">51, 20</property>
+                    <property name="TabIndex">76</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPNumericUpDown, IPControlLibrary, Version=1.25.18329.1125, Culture=neutral, PublicKeyToken=null" name="Lsr2">
+                  <children child-list="Controls" />
+                  <properties>
+                    <property name="OnValueChangedSend">!Lsr2 [Lsr2.Value]\r</property>
+                    <property name="Location">338, 74</property>
+                    <property name="Name">Lsr2</property>
+                    <property name="Size">51, 20</property>
+                    <property name="TabIndex">75</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPNumericUpDown, IPControlLibrary, Version=1.25.18329.1125, Culture=neutral, PublicKeyToken=null" name="Lsr4">
+                  <children child-list="Controls" />
+                  <properties>
+                    <property name="OnValueChangedSend">!Lsr4 [Lsr4.Value]\r</property>
+                    <property name="Location">338, 147</property>
+                    <property name="Name">Lsr4</property>
+                    <property name="Size">51, 20</property>
+                    <property name="TabIndex">74</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPNumericUpDown, IPControlLibrary, Version=1.25.18329.1125, Culture=neutral, PublicKeyToken=null" name="Lsr1">
+                  <children child-list="Controls" />
+                  <properties>
+                    <property name="OnValueChangedSend">!Lsr1 [Lsr1.Value]\r</property>
+                    <property name="Location">338, 36</property>
+                    <property name="Name">Lsr1</property>
+                    <property name="Size">51, 20</property>
+                    <property name="TabIndex">73</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label30">
+                  <properties>
+                    <property name="Text">Laser 
+Strength</property>
+                    <property name="Location">338, 0</property>
+                    <property name="Name">Label30</property>
+                    <property name="Size">68, 36</property>
+                    <property name="TabIndex">72</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPNumericUpDown, IPControlLibrary, Version=1.25.18329.1125, Culture=neutral, PublicKeyToken=null" name="LThrs6">
+                  <children child-list="Controls" />
+                  <properties>
+                    <property name="OnValueChangedSend">!LThrs6 [LThrs6.Value]\r</property>
+                    <property name="DecimalPlaces">2</property>
+                    <property name="Increment">0.01</property>
+                    <property name="Maximum">1000</property>
+                    <property name="Location">49, 216</property>
+                    <property name="Name">LThrs6</property>
+                    <property name="Size">60, 20</property>
+                    <property name="TabIndex">71</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPNumericUpDown, IPControlLibrary, Version=1.25.18329.1125, Culture=neutral, PublicKeyToken=null" name="LThrs5">
+                  <children child-list="Controls" />
+                  <properties>
+                    <property name="OnValueChangedSend">!LThrs5 [LThrs5.Value]\r</property>
+                    <property name="DecimalPlaces">2</property>
+                    <property name="Increment">0.01</property>
+                    <property name="Maximum">1000</property>
+                    <property name="Location">49, 181</property>
+                    <property name="Name">LThrs5</property>
+                    <property name="Size">60, 20</property>
+                    <property name="TabIndex">70</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPNumericUpDown, IPControlLibrary, Version=1.25.18329.1125, Culture=neutral, PublicKeyToken=null" name="LThrs4">
+                  <children child-list="Controls" />
+                  <properties>
+                    <property name="OnValueChangedSend">!LThrs4 [LThrs4.Value]\r</property>
+                    <property name="DecimalPlaces">2</property>
+                    <property name="Increment">0.01</property>
+                    <property name="Maximum">1000</property>
+                    <property name="Location">49, 147</property>
+                    <property name="Name">LThrs4</property>
+                    <property name="Size">60, 20</property>
+                    <property name="TabIndex">69</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPNumericUpDown, IPControlLibrary, Version=1.25.18329.1125, Culture=neutral, PublicKeyToken=null" name="LThrs3">
+                  <children child-list="Controls" />
+                  <properties>
+                    <property name="OnValueChangedSend">!LThrs3 [LThrs3.Value]\r</property>
+                    <property name="DecimalPlaces">2</property>
+                    <property name="Increment">0.01</property>
+                    <property name="Maximum">1000</property>
+                    <property name="Location">49, 112</property>
+                    <property name="Name">LThrs3</property>
+                    <property name="Size">60, 20</property>
+                    <property name="TabIndex">68</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPNumericUpDown, IPControlLibrary, Version=1.25.18329.1125, Culture=neutral, PublicKeyToken=null" name="LThrs2">
+                  <children child-list="Controls" />
+                  <properties>
+                    <property name="OnValueChangedSend">!LThrs2 [LThrs2.Value]\r</property>
+                    <property name="DecimalPlaces">2</property>
+                    <property name="Increment">0.01</property>
+                    <property name="Maximum">1000</property>
+                    <property name="Location">49, 74</property>
+                    <property name="Name">LThrs2</property>
+                    <property name="Size">60, 20</property>
+                    <property name="TabIndex">67</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPNumericUpDown, IPControlLibrary, Version=1.25.18329.1125, Culture=neutral, PublicKeyToken=null" name="LThrs1">
+                  <children child-list="Controls" />
+                  <properties>
+                    <property name="OnValueChangedSend">!LThrs1 [LThrs1.Value]\r</property>
+                    <property name="DecimalPlaces">2</property>
+                    <property name="Increment">0.01</property>
+                    <property name="Maximum">1000</property>
+                    <property name="Location">49, 36</property>
+                    <property name="Name">LThrs1</property>
+                    <property name="Size">60, 20</property>
+                    <property name="TabIndex">66</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label29">
+                  <properties>
+                    <property name="Text">Lower Dilution
+Thresholds</property>
+                    <property name="Location">45, 0</property>
+                    <property name="Name">Label29</property>
+                    <property name="Size">79, 33</property>
+                    <property name="TabIndex">65</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPRadioButton, IPControlLibrary, Version=1.25.18329.1125, Culture=neutral, PublicKeyToken=null" name="Cleaning3">
+                  <properties>
+                    <property name="OnCheckChangedSend">![Cleaning3.Name] [Cleaning3.Checked?"1":"0"]\r</property>
+                    <property name="Text">Pump2 Cleaning</property>
+                    <property name="Location">24, 581</property>
+                    <property name="Name">Cleaning3</property>
+                    <property name="Size">104, 24</property>
+                    <property name="TabIndex">64</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPRadioButton, IPControlLibrary, Version=1.25.18329.1125, Culture=neutral, PublicKeyToken=null" name="Cleaning2">
+                  <properties>
+                    <property name="OnCheckChangedSend">![Cleaning2.Name] [Cleaning2.Checked?"1":"0"]\r</property>
+                    <property name="Text">Pump1 Cleaning</property>
+                    <property name="Location">24, 559</property>
+                    <property name="Name">Cleaning2</property>
+                    <property name="Size">104, 24</property>
+                    <property name="TabIndex">63</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPRadioButton, IPControlLibrary, Version=1.25.18329.1125, Culture=neutral, PublicKeyToken=null" name="Cleaning1">
+                  <properties>
+                    <property name="OnCheckChangedSend">![Cleaning1.Name] [Cleaning1.Checked?"1":"0"]\r</property>
+                    <property name="Text">Morbidostat</property>
+                    <property name="Location">24, 537</property>
+                    <property name="Name">Cleaning1</property>
+                    <property name="Size">104, 24</property>
+                    <property name="TabIndex">62</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label28">
+                  <properties>
+                    <property name="Text">Mode</property>
+                    <property name="Location">24, 522</property>
+                    <property name="Name">Label28</property>
+                    <property name="Size">100, 23</property>
+                    <property name="TabIndex">61</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label27">
+                  <properties>
+                    <property name="Text">(0-100)</property>
+                    <property name="Location">130, 428</property>
+                    <property name="Name">Label27</property>
+                    <property name="Size">100, 23</property>
+                    <property name="TabIndex">60</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPNumericUpDown, IPControlLibrary, Version=1.25.18329.1125, Culture=neutral, PublicKeyToken=null" name="PumpSpd">
+                  <children child-list="Controls" />
+                  <properties>
+                    <property name="OnValueChangedSend">!PumpSpd [PumpSpd.Value]\r</property>
+                    <property name="Location">72, 424</property>
+                    <property name="Name">PumpSpd</property>
+                    <property name="Size">52, 20</property>
+                    <property name="TabIndex">59</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label26">
+                  <properties>
+                    <property name="Text">Pump Speed</property>
+                    <property name="Location">0, 428</property>
+                    <property name="Name">Label26</property>
+                    <property name="Size">74, 23</property>
+                    <property name="TabIndex">58</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPNumericUpDown, IPControlLibrary, Version=1.25.18329.1125, Culture=neutral, PublicKeyToken=null" name="DTime6">
+                  <children child-list="Controls" />
+                  <properties>
+                    <property name="OnValueChangedSend">!DTime6 [DTime6.Value]\r</property>
+                    <property name="Location">281, 216</property>
+                    <property name="Name">DTime6</property>
+                    <property name="Size">51, 20</property>
+                    <property name="TabIndex">57</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPNumericUpDown, IPControlLibrary, Version=1.25.18329.1125, Culture=neutral, PublicKeyToken=null" name="DTime5">
+                  <children child-list="Controls" />
+                  <properties>
+                    <property name="OnValueChangedSend">!DTime5 [DTime5.Value]\r</property>
+                    <property name="Location">281, 184</property>
+                    <property name="Name">DTime5</property>
+                    <property name="Size">51, 20</property>
+                    <property name="TabIndex">56</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPNumericUpDown, IPControlLibrary, Version=1.25.18329.1125, Culture=neutral, PublicKeyToken=null" name="DTime3">
+                  <children child-list="Controls" />
+                  <properties>
+                    <property name="OnValueChangedSend">!DTime3 [DTime3.Value]\r</property>
+                    <property name="Location">281, 112</property>
+                    <property name="Name">DTime3</property>
+                    <property name="Size">51, 20</property>
+                    <property name="TabIndex">55</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPNumericUpDown, IPControlLibrary, Version=1.25.18329.1125, Culture=neutral, PublicKeyToken=null" name="DTime2">
+                  <children child-list="Controls" />
+                  <properties>
+                    <property name="OnValueChangedSend">!DTime2 [DTime2.Value]\r</property>
+                    <property name="Location">281, 74</property>
+                    <property name="Name">DTime2</property>
+                    <property name="Size">51, 20</property>
+                    <property name="TabIndex">54</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPNumericUpDown, IPControlLibrary, Version=1.25.18329.1125, Culture=neutral, PublicKeyToken=null" name="DTime4">
+                  <children child-list="Controls" />
+                  <properties>
+                    <property name="OnValueChangedSend">!DTime4 [DTime4.Value]\r</property>
+                    <property name="Location">281, 147</property>
+                    <property name="Name">DTime4</property>
+                    <property name="Size">51, 20</property>
+                    <property name="TabIndex">53</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPNumericUpDown, IPControlLibrary, Version=1.25.18329.1125, Culture=neutral, PublicKeyToken=null" name="DTime1">
+                  <children child-list="Controls" />
+                  <properties>
+                    <property name="OnValueChangedSend">!DTime1 [DTime1.Value]\r</property>
+                    <property name="Location">281, 36</property>
+                    <property name="Name">DTime1</property>
+                    <property name="Size">51, 20</property>
+                    <property name="TabIndex">52</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label25">
+                  <properties>
+                    <property name="Text">Dilution
+Time (s)</property>
+                    <property name="Location">281, 0</property>
+                    <property name="Name">Label25</property>
+                    <property name="Size">68, 36</property>
+                    <property name="TabIndex">51</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPCheckBox, IPControlLibrary, Version=1.25.18329.1125, Culture=neutral, PublicKeyToken=null" name="Valve6P2">
+                  <properties>
+                    <property name="OnCheckChangedSend">!Valve [Valve6P2.Checked?"11 1":"11 0"]\r</property>
+                    <property name="Text">On/Off</property>
+                    <property name="Location">309, 404</property>
+                    <property name="Name">Valve6P2</property>
+                    <property name="Size">65, 30</property>
+                    <property name="TabIndex">50</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPCheckBox, IPControlLibrary, Version=1.25.18329.1125, Culture=neutral, PublicKeyToken=null" name="Valve5P2">
+                  <properties>
+                    <property name="OnCheckChangedSend">!Valve [Valve5P2.Checked?"9 1":"9 0"]\r</property>
+                    <property name="Text">On/Off</property>
+                    <property name="Location">309, 379</property>
+                    <property name="Name">Valve5P2</property>
+                    <property name="Size">65, 27</property>
+                    <property name="TabIndex">48</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPCheckBox, IPControlLibrary, Version=1.25.18329.1125, Culture=neutral, PublicKeyToken=null" name="Valve4P2">
+                  <properties>
+                    <property name="OnCheckChangedSend">!Valve [Valve4P2.Checked?"7 1":"7 0"]\r</property>
+                    <property name="Text">On/Off</property>
+                    <property name="Location">309, 353</property>
+                    <property name="Name">Valve4P2</property>
+                    <property name="Size">65, 28</property>
+                    <property name="TabIndex">47</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPCheckBox, IPControlLibrary, Version=1.25.18329.1125, Culture=neutral, PublicKeyToken=null" name="Valve3P2">
+                  <properties>
+                    <property name="OnCheckChangedSend">!Valve [Valve3P2.Checked?"5 1":"5 0"]\r</property>
+                    <property name="Text">On/Off</property>
+                    <property name="Location">309, 331</property>
+                    <property name="Name">Valve3P2</property>
+                    <property name="Size">65, 21</property>
+                    <property name="TabIndex">46</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPCheckBox, IPControlLibrary, Version=1.25.18329.1125, Culture=neutral, PublicKeyToken=null" name="Valve2P2">
+                  <properties>
+                    <property name="OnCheckChangedSend">!Valve [Valve2P2.Checked?"3 1":"3 0"]\r</property>
+                    <property name="Text">On/Off</property>
+                    <property name="Location">309, 305</property>
+                    <property name="Name">Valve2P2</property>
+                    <property name="Size">65, 20</property>
+                    <property name="TabIndex">45</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPCheckBox, IPControlLibrary, Version=1.25.18329.1125, Culture=neutral, PublicKeyToken=null" name="Valve1P2">
+                  <properties>
+                    <property name="OnCheckChangedSend">!Valve [Valve1P2.Checked?"1 1":"1 0"]\r</property>
+                    <property name="Text">On/Off</property>
+                    <property name="Location">309, 280</property>
+                    <property name="Name">Valve1P2</property>
+                    <property name="Size">65, 21</property>
+                    <property name="TabIndex">44</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPCheckBox, IPControlLibrary, Version=1.25.18329.1125, Culture=neutral, PublicKeyToken=null" name="Pump2">
+                  <properties>
+                    <property name="OnCheckChangedSend">!Pump2 [Pump2.Checked?"1":"0"]\r</property>
+                    <property name="Text">On/Off</property>
+                    <property name="Location">76, 376</property>
+                    <property name="Name">Pump2</property>
+                    <property name="Size">78, 24</property>
+                    <property name="TabIndex">43</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label17">
+                  <properties>
+                    <property name="Text">Valve 6</property>
+                    <property name="Location">219, 410</property>
+                    <property name="Name">Label17</property>
+                    <property name="Size">100, 20</property>
+                    <property name="TabIndex">36</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label18">
+                  <properties>
+                    <property name="Text">Valve 5</property>
+                    <property name="Location">219, 384</property>
+                    <property name="Name">Label18</property>
+                    <property name="Size">100, 14</property>
+                    <property name="TabIndex">35</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label19">
+                  <properties>
+                    <property name="Text">Valve 4</property>
+                    <property name="Location">219, 355</property>
+                    <property name="Name">Label19</property>
+                    <property name="Size">45, 20</property>
+                    <property name="TabIndex">34</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label20">
+                  <properties>
+                    <property name="Text">Valve 3</property>
+                    <property name="Location">219, 332</property>
+                    <property name="Name">Label20</property>
+                    <property name="Size">100, 23</property>
+                    <property name="TabIndex">33</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label21">
+                  <properties>
+                    <property name="Text">Valve 2</property>
+                    <property name="Location">219, 307</property>
+                    <property name="Name">Label21</property>
+                    <property name="Size">100, 21</property>
+                    <property name="TabIndex">32</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label22">
+                  <properties>
+                    <property name="Text">Valve 1</property>
+                    <property name="Location">219, 280</property>
+                    <property name="Name">Label22</property>
+                    <property name="Size">49, 25</property>
+                    <property name="TabIndex">31</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label23">
+                  <properties>
+                    <property name="Text">Pump 2</property>
+                    <property name="Location">5, 382</property>
+                    <property name="Name">Label23</property>
+                    <property name="Size">100, 23</property>
+                    <property name="TabIndex">30</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPCheckBox, IPControlLibrary, Version=1.25.18329.1125, Culture=neutral, PublicKeyToken=null" name="Pump1">
+                  <properties>
+                    <property name="OnCheckChangedSend">!Pump1 [Pump1.Checked?"1":"0"]\r</property>
+                    <property name="Text">On/Off</property>
+                    <property name="Location">76, 346</property>
+                    <property name="Name">Pump1</property>
+                    <property name="Size">78, 24</property>
+                    <property name="TabIndex">29</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label24">
+                  <properties>
+                    <property name="Text">Pump 1</property>
+                    <property name="Location">5, 351</property>
+                    <property name="Name">Label24</property>
+                    <property name="Size">100, 23</property>
+                    <property name="TabIndex">28</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label10">
+                  <properties>
+                    <property name="Text">After changing a value, remember to press Enter to send
+the value to the microcontroller</property>
+                    <property name="Location">7, 489</property>
+                    <property name="Name">Label10</property>
+                    <property name="Size">291, 33</property>
+                    <property name="TabIndex">23</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPNumericUpDown, IPControlLibrary, Version=1.25.18329.1125, Culture=neutral, PublicKeyToken=null" name="CTime6">
+                  <children child-list="Controls" />
+                  <properties>
+                    <property name="OnValueChangedSend">!CTime6 [CTime6.Value]\r</property>
+                    <property name="Location">207, 216</property>
+                    <property name="Name">CTime6</property>
+                    <property name="Size">54, 20</property>
+                    <property name="TabIndex">21</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPNumericUpDown, IPControlLibrary, Version=1.25.18329.1125, Culture=neutral, PublicKeyToken=null" name="CTime5">
+                  <children child-list="Controls" />
+                  <properties>
+                    <property name="OnValueChangedSend">!CTime5 [CTime5.Value]\r</property>
+                    <property name="Location">207, 184</property>
+                    <property name="Name">CTime5</property>
+                    <property name="Size">54, 20</property>
+                    <property name="TabIndex">20</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPNumericUpDown, IPControlLibrary, Version=1.25.18329.1125, Culture=neutral, PublicKeyToken=null" name="CTime3">
+                  <children child-list="Controls" />
+                  <properties>
+                    <property name="OnValueChangedSend">!CTime3 [CTime3.Value]\r</property>
+                    <property name="Location">207, 112</property>
+                    <property name="Name">CTime3</property>
+                    <property name="Size">54, 20</property>
+                    <property name="TabIndex">19</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPNumericUpDown, IPControlLibrary, Version=1.25.18329.1125, Culture=neutral, PublicKeyToken=null" name="CTime2">
+                  <children child-list="Controls" />
+                  <properties>
+                    <property name="OnValueChangedSend">!CTime2 [CTime2.Value]\r</property>
+                    <property name="Location">207, 74</property>
+                    <property name="Name">CTime2</property>
+                    <property name="Size">54, 20</property>
+                    <property name="TabIndex">18</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPNumericUpDown, IPControlLibrary, Version=1.25.18329.1125, Culture=neutral, PublicKeyToken=null" name="CTime4">
+                  <children child-list="Controls" />
+                  <properties>
+                    <property name="OnValueChangedSend">!CTime4 [CTime4.Value]\r</property>
+                    <property name="Location">207, 147</property>
+                    <property name="Name">CTime4</property>
+                    <property name="Size">54, 20</property>
+                    <property name="TabIndex">17</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPNumericUpDown, IPControlLibrary, Version=1.25.18329.1125, Culture=neutral, PublicKeyToken=null" name="CTime1">
+                  <children child-list="Controls" />
+                  <properties>
+                    <property name="OnValueChangedSend">!CTime1 [CTime1.Value]\r</property>
+                    <property name="Location">207, 36</property>
+                    <property name="Name">CTime1</property>
+                    <property name="Size">54, 20</property>
+                    <property name="TabIndex">16</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPNumericUpDown, IPControlLibrary, Version=1.25.18329.1125, Culture=neutral, PublicKeyToken=null" name="Thrs6">
+                  <children child-list="Controls" />
+                  <properties>
+                    <property name="OnValueChangedSend">!Thrs6 [Thrs6.Value]\r</property>
+                    <property name="DecimalPlaces">2</property>
+                    <property name="Increment">0.01</property>
+                    <property name="Maximum">1000</property>
+                    <property name="Location">129, 216</property>
+                    <property name="Name">Thrs6</property>
+                    <property name="Size">60, 20</property>
+                    <property name="TabIndex">14</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPNumericUpDown, IPControlLibrary, Version=1.25.18329.1125, Culture=neutral, PublicKeyToken=null" name="Thrs5">
+                  <children child-list="Controls" />
+                  <properties>
+                    <property name="OnValueChangedSend">!Thrs5 [Thrs5.Value]\r</property>
+                    <property name="DecimalPlaces">2</property>
+                    <property name="Increment">0.01</property>
+                    <property name="Maximum">1000</property>
+                    <property name="Location">129, 181</property>
+                    <property name="Name">Thrs5</property>
+                    <property name="Size">60, 20</property>
+                    <property name="TabIndex">13</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPNumericUpDown, IPControlLibrary, Version=1.25.18329.1125, Culture=neutral, PublicKeyToken=null" name="Thrs4">
+                  <children child-list="Controls" />
+                  <properties>
+                    <property name="OnValueChangedSend">!Thrs4 [Thrs4.Value]\r</property>
+                    <property name="DecimalPlaces">2</property>
+                    <property name="Increment">0.01</property>
+                    <property name="Maximum">1000</property>
+                    <property name="Location">129, 147</property>
+                    <property name="Name">Thrs4</property>
+                    <property name="Size">60, 20</property>
+                    <property name="TabIndex">12</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPNumericUpDown, IPControlLibrary, Version=1.25.18329.1125, Culture=neutral, PublicKeyToken=null" name="Thrs3">
+                  <children child-list="Controls" />
+                  <properties>
+                    <property name="OnValueChangedSend">!Thrs3 [Thrs3.Value]\r</property>
+                    <property name="DecimalPlaces">2</property>
+                    <property name="Increment">0.01</property>
+                    <property name="Maximum">1000</property>
+                    <property name="Location">129, 112</property>
+                    <property name="Name">Thrs3</property>
+                    <property name="Size">60, 20</property>
+                    <property name="TabIndex">11</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPNumericUpDown, IPControlLibrary, Version=1.25.18329.1125, Culture=neutral, PublicKeyToken=null" name="Thrs2">
+                  <children child-list="Controls" />
+                  <properties>
+                    <property name="OnValueChangedSend">!Thrs2 [Thrs2.Value]\r</property>
+                    <property name="DecimalPlaces">2</property>
+                    <property name="Increment">0.01</property>
+                    <property name="Maximum">1000</property>
+                    <property name="Location">129, 74</property>
+                    <property name="Name">Thrs2</property>
+                    <property name="Size">60, 20</property>
+                    <property name="TabIndex">10</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label7">
+                  <properties>
+                    <property name="Text">Cycle
+Time (min)</property>
+                    <property name="Location">210, 0</property>
+                    <property name="Name">Label7</property>
+                    <property name="Size">58, 36</property>
+                    <property name="TabIndex">8</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label6">
+                  <properties>
+                    <property name="Text">Tube 6</property>
+                    <property name="Location">7, 216</property>
+                    <property name="Name">Label6</property>
+                    <property name="Size">48, 23</property>
+                    <property name="TabIndex">7</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label5">
+                  <properties>
+                    <property name="Text">Tube 5</property>
+                    <property name="Location">3, 181</property>
+                    <property name="Name">Label5</property>
+                    <property name="Size">52, 23</property>
+                    <property name="TabIndex">6</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label4">
+                  <properties>
+                    <property name="Text">Tube 4</property>
+                    <property name="Location">5, 147</property>
+                    <property name="Name">Label4</property>
+                    <property name="Size">52, 23</property>
+                    <property name="TabIndex">5</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label3">
+                  <properties>
+                    <property name="Text">Tube 3</property>
+                    <property name="Location">5, 112</property>
+                    <property name="Name">Label3</property>
+                    <property name="Size">52, 23</property>
+                    <property name="TabIndex">4</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label2">
+                  <properties>
+                    <property name="Text">Tube 2</property>
+                    <property name="Location">3, 74</property>
+                    <property name="Name">Label2</property>
+                    <property name="Size">52, 23</property>
+                    <property name="TabIndex">3</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPNumericUpDown, IPControlLibrary, Version=1.25.18329.1125, Culture=neutral, PublicKeyToken=null" name="Thrs1">
+                  <children child-list="Controls" />
+                  <properties>
+                    <property name="OnValueChangedSend">!Thrs1 [Thrs1.Value]\r</property>
+                    <property name="DecimalPlaces">2</property>
+                    <property name="Increment">0.01</property>
+                    <property name="Maximum">1000</property>
+                    <property name="Location">129, 36</property>
+                    <property name="Name">Thrs1</property>
+                    <property name="Size">60, 20</property>
+                    <property name="TabIndex">2</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label1">
+                  <properties>
+                    <property name="Text">Tube 1</property>
+                    <property name="Location">7, 36</property>
+                    <property name="Name">Label1</property>
+                    <property name="Size">58, 23</property>
+                    <property name="TabIndex">1</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Dilution Thresholds">
+                  <properties>
+                    <property name="Text">Upper Dilution
+Thresholds</property>
+                    <property name="Location">125, 0</property>
+                    <property name="Name">Dilution Thresholds</property>
+                    <property name="Size">79, 33</property>
+                    <property name="TabIndex">0</property>
+                  </properties>
+                </component>
+              </children>
+              <properties>
+                <property name="Name">UserControl1</property>
+                <property name="Size">632, 722</property>
+              </properties>
+              <components>
+                <component type="IPControlLibrary.Protocols.MLPMessageProcessor.MLPUIMessageProcessor, IPControlLibrary, Version=1.25.18329.1125, Culture=neutral, PublicKeyToken=null" name="MLPUIMessageProcessor1">
+                  <properties>
+                    <property name="ChannelName">Settings</property>
+                  </properties>
+                </component>
+              </components>
+            </design>
+            <values>
+              <value name="Turbidostat">
+                <property name="Checked"><![CDATA[True]]></property>
+                <property name="CheckedAsByte"><![CDATA[1]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="Valve6P1">
+                <property name="Checked"><![CDATA[False]]></property>
+                <property name="CheckedAsByte"><![CDATA[0]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="Valve5P1">
+                <property name="Checked"><![CDATA[False]]></property>
+                <property name="CheckedAsByte"><![CDATA[0]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="Valve4P1">
+                <property name="Checked"><![CDATA[False]]></property>
+                <property name="CheckedAsByte"><![CDATA[0]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="Valve3P1">
+                <property name="Checked"><![CDATA[False]]></property>
+                <property name="CheckedAsByte"><![CDATA[0]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="Valve2P1">
+                <property name="Checked"><![CDATA[False]]></property>
+                <property name="CheckedAsByte"><![CDATA[0]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="Valve1P1">
+                <property name="Checked"><![CDATA[False]]></property>
+                <property name="CheckedAsByte"><![CDATA[0]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="LTTime">
+                <property name="Value"><![CDATA[60]]></property>
+                <property name="DoubleValue"><![CDATA[60]]></property>
+                <property name="Minimum"><![CDATA[0]]></property>
+                <property name="Maximum"><![CDATA[360]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="AirDelay">
+                <property name="Value"><![CDATA[0]]></property>
+                <property name="DoubleValue"><![CDATA[0]]></property>
+                <property name="Minimum"><![CDATA[-1]]></property>
+                <property name="Maximum"><![CDATA[100]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="Air">
+                <property name="Checked"><![CDATA[False]]></property>
+                <property name="CheckedAsByte"><![CDATA[0]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="Lsr6">
+                <property name="Value"><![CDATA[4]]></property>
+                <property name="DoubleValue"><![CDATA[4]]></property>
+                <property name="Minimum"><![CDATA[0]]></property>
+                <property name="Maximum"><![CDATA[100]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="Lsr5">
+                <property name="Value"><![CDATA[4]]></property>
+                <property name="DoubleValue"><![CDATA[4]]></property>
+                <property name="Minimum"><![CDATA[0]]></property>
+                <property name="Maximum"><![CDATA[100]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="Lsr3">
+                <property name="Value"><![CDATA[4]]></property>
+                <property name="DoubleValue"><![CDATA[4]]></property>
+                <property name="Minimum"><![CDATA[0]]></property>
+                <property name="Maximum"><![CDATA[100]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="Lsr2">
+                <property name="Value"><![CDATA[4]]></property>
+                <property name="DoubleValue"><![CDATA[4]]></property>
+                <property name="Minimum"><![CDATA[0]]></property>
+                <property name="Maximum"><![CDATA[100]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="Lsr4">
+                <property name="Value"><![CDATA[4]]></property>
+                <property name="DoubleValue"><![CDATA[4]]></property>
+                <property name="Minimum"><![CDATA[0]]></property>
+                <property name="Maximum"><![CDATA[100]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="Lsr1">
+                <property name="Value"><![CDATA[4]]></property>
+                <property name="DoubleValue"><![CDATA[4]]></property>
+                <property name="Minimum"><![CDATA[0]]></property>
+                <property name="Maximum"><![CDATA[100]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="LThrs6">
+                <property name="Value"><![CDATA[0.250]]></property>
+                <property name="DoubleValue"><![CDATA[0.25]]></property>
+                <property name="Minimum"><![CDATA[0]]></property>
+                <property name="Maximum"><![CDATA[1000]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="LThrs5">
+                <property name="Value"><![CDATA[0.250]]></property>
+                <property name="DoubleValue"><![CDATA[0.25]]></property>
+                <property name="Minimum"><![CDATA[0]]></property>
+                <property name="Maximum"><![CDATA[1000]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="LThrs4">
+                <property name="Value"><![CDATA[0.250]]></property>
+                <property name="DoubleValue"><![CDATA[0.25]]></property>
+                <property name="Minimum"><![CDATA[0]]></property>
+                <property name="Maximum"><![CDATA[1000]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="LThrs3">
+                <property name="Value"><![CDATA[0.250]]></property>
+                <property name="DoubleValue"><![CDATA[0.25]]></property>
+                <property name="Minimum"><![CDATA[0]]></property>
+                <property name="Maximum"><![CDATA[1000]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="LThrs2">
+                <property name="Value"><![CDATA[0.250]]></property>
+                <property name="DoubleValue"><![CDATA[0.25]]></property>
+                <property name="Minimum"><![CDATA[0]]></property>
+                <property name="Maximum"><![CDATA[1000]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="LThrs1">
+                <property name="Value"><![CDATA[0.250]]></property>
+                <property name="DoubleValue"><![CDATA[0.25]]></property>
+                <property name="Minimum"><![CDATA[0]]></property>
+                <property name="Maximum"><![CDATA[1000]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="Cleaning3">
+                <property name="Checked"><![CDATA[False]]></property>
+                <property name="CheckedAsByte"><![CDATA[0]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="Cleaning2">
+                <property name="Checked"><![CDATA[False]]></property>
+                <property name="CheckedAsByte"><![CDATA[0]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="Cleaning1">
+                <property name="Checked"><![CDATA[False]]></property>
+                <property name="CheckedAsByte"><![CDATA[0]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="PumpSpd">
+                <property name="Value"><![CDATA[100]]></property>
+                <property name="DoubleValue"><![CDATA[100]]></property>
+                <property name="Minimum"><![CDATA[0]]></property>
+                <property name="Maximum"><![CDATA[100]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="DTime6">
+                <property name="Value"><![CDATA[3]]></property>
+                <property name="DoubleValue"><![CDATA[3]]></property>
+                <property name="Minimum"><![CDATA[0]]></property>
+                <property name="Maximum"><![CDATA[100]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="DTime5">
+                <property name="Value"><![CDATA[3]]></property>
+                <property name="DoubleValue"><![CDATA[3]]></property>
+                <property name="Minimum"><![CDATA[0]]></property>
+                <property name="Maximum"><![CDATA[100]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="DTime3">
+                <property name="Value"><![CDATA[3]]></property>
+                <property name="DoubleValue"><![CDATA[3]]></property>
+                <property name="Minimum"><![CDATA[0]]></property>
+                <property name="Maximum"><![CDATA[100]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="DTime2">
+                <property name="Value"><![CDATA[3]]></property>
+                <property name="DoubleValue"><![CDATA[3]]></property>
+                <property name="Minimum"><![CDATA[0]]></property>
+                <property name="Maximum"><![CDATA[100]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="DTime4">
+                <property name="Value"><![CDATA[3]]></property>
+                <property name="DoubleValue"><![CDATA[3]]></property>
+                <property name="Minimum"><![CDATA[0]]></property>
+                <property name="Maximum"><![CDATA[100]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="DTime1">
+                <property name="Value"><![CDATA[3]]></property>
+                <property name="DoubleValue"><![CDATA[3]]></property>
+                <property name="Minimum"><![CDATA[0]]></property>
+                <property name="Maximum"><![CDATA[100]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="Valve6P2">
+                <property name="Checked"><![CDATA[False]]></property>
+                <property name="CheckedAsByte"><![CDATA[0]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="Valve5P2">
+                <property name="Checked"><![CDATA[False]]></property>
+                <property name="CheckedAsByte"><![CDATA[0]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="Valve4P2">
+                <property name="Checked"><![CDATA[False]]></property>
+                <property name="CheckedAsByte"><![CDATA[0]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="Valve3P2">
+                <property name="Checked"><![CDATA[False]]></property>
+                <property name="CheckedAsByte"><![CDATA[0]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="Valve2P2">
+                <property name="Checked"><![CDATA[False]]></property>
+                <property name="CheckedAsByte"><![CDATA[0]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="Valve1P2">
+                <property name="Checked"><![CDATA[False]]></property>
+                <property name="CheckedAsByte"><![CDATA[0]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="Pump2">
+                <property name="Checked"><![CDATA[False]]></property>
+                <property name="CheckedAsByte"><![CDATA[0]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="Pump1">
+                <property name="Checked"><![CDATA[False]]></property>
+                <property name="CheckedAsByte"><![CDATA[0]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="CTime6">
+                <property name="Value"><![CDATA[15]]></property>
+                <property name="DoubleValue"><![CDATA[15]]></property>
+                <property name="Minimum"><![CDATA[0]]></property>
+                <property name="Maximum"><![CDATA[100]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="CTime5">
+                <property name="Value"><![CDATA[15]]></property>
+                <property name="DoubleValue"><![CDATA[15]]></property>
+                <property name="Minimum"><![CDATA[0]]></property>
+                <property name="Maximum"><![CDATA[100]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="CTime3">
+                <property name="Value"><![CDATA[15]]></property>
+                <property name="DoubleValue"><![CDATA[15]]></property>
+                <property name="Minimum"><![CDATA[0]]></property>
+                <property name="Maximum"><![CDATA[100]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="CTime2">
+                <property name="Value"><![CDATA[15]]></property>
+                <property name="DoubleValue"><![CDATA[15]]></property>
+                <property name="Minimum"><![CDATA[0]]></property>
+                <property name="Maximum"><![CDATA[100]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="CTime4">
+                <property name="Value"><![CDATA[15]]></property>
+                <property name="DoubleValue"><![CDATA[15]]></property>
+                <property name="Minimum"><![CDATA[0]]></property>
+                <property name="Maximum"><![CDATA[100]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="CTime1">
+                <property name="Value"><![CDATA[15]]></property>
+                <property name="DoubleValue"><![CDATA[15]]></property>
+                <property name="Minimum"><![CDATA[0]]></property>
+                <property name="Maximum"><![CDATA[100]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="Thrs6">
+                <property name="Value"><![CDATA[0.400]]></property>
+                <property name="DoubleValue"><![CDATA[0.4]]></property>
+                <property name="Minimum"><![CDATA[0]]></property>
+                <property name="Maximum"><![CDATA[1000]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="Thrs5">
+                <property name="Value"><![CDATA[0.400]]></property>
+                <property name="DoubleValue"><![CDATA[0.4]]></property>
+                <property name="Minimum"><![CDATA[0]]></property>
+                <property name="Maximum"><![CDATA[1000]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="Thrs4">
+                <property name="Value"><![CDATA[0.400]]></property>
+                <property name="DoubleValue"><![CDATA[0.4]]></property>
+                <property name="Minimum"><![CDATA[0]]></property>
+                <property name="Maximum"><![CDATA[1000]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="Thrs3">
+                <property name="Value"><![CDATA[0.400]]></property>
+                <property name="DoubleValue"><![CDATA[0.4]]></property>
+                <property name="Minimum"><![CDATA[0]]></property>
+                <property name="Maximum"><![CDATA[1000]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="Thrs2">
+                <property name="Value"><![CDATA[0.400]]></property>
+                <property name="DoubleValue"><![CDATA[0.4]]></property>
+                <property name="Minimum"><![CDATA[0]]></property>
+                <property name="Maximum"><![CDATA[1000]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="Thrs1">
+                <property name="Value"><![CDATA[0.400]]></property>
+                <property name="DoubleValue"><![CDATA[0.4]]></property>
+                <property name="Minimum"><![CDATA[0]]></property>
+                <property name="Maximum"><![CDATA[1000]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+            </values>
+            <value-store>
+              <value-set>
+                <name><![CDATA[Default]]></name>
+                <values>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;mlp-interface-values version="1.0"&gt;&lt;values&gt;&lt;value name="Turbidostat"&gt;&lt;property name="Checked"&gt;&lt;![CDATA[False]]&gt;&lt;/property&gt;&lt;property name="CheckedAsByte"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Enabled"&gt;&lt;![CDATA[True]]&gt;&lt;/property&gt;&lt;/value&gt;&lt;value name="Valve6P1"&gt;&lt;property name="Checked"&gt;&lt;![CDATA[False]]&gt;&lt;/property&gt;&lt;property name="CheckedAsByte"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Enabled"&gt;&lt;![CDATA[True]]&gt;&lt;/property&gt;&lt;/value&gt;&lt;value name="Valve5P1"&gt;&lt;property name="Checked"&gt;&lt;![CDATA[False]]&gt;&lt;/property&gt;&lt;property name="CheckedAsByte"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Enabled"&gt;&lt;![CDATA[True]]&gt;&lt;/property&gt;&lt;/value&gt;&lt;value name="Valve4P1"&gt;&lt;property name="Checked"&gt;&lt;![CDATA[False]]&gt;&lt;/property&gt;&lt;property name="CheckedAsByte"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Enabled"&gt;&lt;![CDATA[True]]&gt;&lt;/property&gt;&lt;/value&gt;&lt;value name="Valve3P1"&gt;&lt;property name="Checked"&gt;&lt;![CDATA[False]]&gt;&lt;/property&gt;&lt;property name="CheckedAsByte"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Enabled"&gt;&lt;![CDATA[True]]&gt;&lt;/property&gt;&lt;/value&gt;&lt;value name="Valve2P1"&gt;&lt;property name="Checked"&gt;&lt;![CDATA[False]]&gt;&lt;/property&gt;&lt;property name="CheckedAsByte"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Enabled"&gt;&lt;![CDATA[True]]&gt;&lt;/property&gt;&lt;/value&gt;&lt;value name="Valve1P1"&gt;&lt;property name="Checked"&gt;&lt;![CDATA[False]]&gt;&lt;/property&gt;&lt;property name="CheckedAsByte"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Enabled"&gt;&lt;![CDATA[True]]&gt;&lt;/property&gt;&lt;/value&gt;&lt;value name="LTTime"&gt;&lt;property name="Value"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="DoubleValue"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Minimum"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Maximum"&gt;&lt;![CDATA[360]]&gt;&lt;/property&gt;&lt;property name="Enabled"&gt;&lt;![CDATA[True]]&gt;&lt;/property&gt;&lt;/value&gt;&lt;value name="AirDelay"&gt;&lt;property name="Value"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="DoubleValue"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Minimum"&gt;&lt;![CDATA[-1]]&gt;&lt;/property&gt;&lt;property name="Maximum"&gt;&lt;![CDATA[100]]&gt;&lt;/property&gt;&lt;property name="Enabled"&gt;&lt;![CDATA[True]]&gt;&lt;/property&gt;&lt;/value&gt;&lt;value name="Air"&gt;&lt;property name="Checked"&gt;&lt;![CDATA[False]]&gt;&lt;/property&gt;&lt;property name="CheckedAsByte"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Enabled"&gt;&lt;![CDATA[True]]&gt;&lt;/property&gt;&lt;/value&gt;&lt;value name="Lsr6"&gt;&lt;property name="Value"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="DoubleValue"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Minimum"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Maximum"&gt;&lt;![CDATA[100]]&gt;&lt;/property&gt;&lt;property name="Enabled"&gt;&lt;![CDATA[True]]&gt;&lt;/property&gt;&lt;/value&gt;&lt;value name="Lsr5"&gt;&lt;property name="Value"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="DoubleValue"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Minimum"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Maximum"&gt;&lt;![CDATA[100]]&gt;&lt;/property&gt;&lt;property name="Enabled"&gt;&lt;![CDATA[True]]&gt;&lt;/property&gt;&lt;/value&gt;&lt;value name="Lsr3"&gt;&lt;property name="Value"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="DoubleValue"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Minimum"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Maximum"&gt;&lt;![CDATA[100]]&gt;&lt;/property&gt;&lt;property name="Enabled"&gt;&lt;![CDATA[True]]&gt;&lt;/property&gt;&lt;/value&gt;&lt;value name="Lsr2"&gt;&lt;property name="Value"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="DoubleValue"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Minimum"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Maximum"&gt;&lt;![CDATA[100]]&gt;&lt;/property&gt;&lt;property name="Enabled"&gt;&lt;![CDATA[True]]&gt;&lt;/property&gt;&lt;/value&gt;&lt;value name="Lsr4"&gt;&lt;property name="Value"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="DoubleValue"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Minimum"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Maximum"&gt;&lt;![CDATA[100]]&gt;&lt;/property&gt;&lt;property name="Enabled"&gt;&lt;![CDATA[True]]&gt;&lt;/property&gt;&lt;/value&gt;&lt;value name="Lsr1"&gt;&lt;property name="Value"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="DoubleValue"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Minimum"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Maximum"&gt;&lt;![CDATA[100]]&gt;&lt;/property&gt;&lt;property name="Enabled"&gt;&lt;![CDATA[True]]&gt;&lt;/property&gt;&lt;/value&gt;&lt;value name="LThrs6"&gt;&lt;property name="Value"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="DoubleValue"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Minimum"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Maximum"&gt;&lt;![CDATA[1000]]&gt;&lt;/property&gt;&lt;property name="Enabled"&gt;&lt;![CDATA[True]]&gt;&lt;/property&gt;&lt;/value&gt;&lt;value name="LThrs5"&gt;&lt;property name="Value"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="DoubleValue"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Minimum"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Maximum"&gt;&lt;![CDATA[1000]]&gt;&lt;/property&gt;&lt;property name="Enabled"&gt;&lt;![CDATA[True]]&gt;&lt;/property&gt;&lt;/value&gt;&lt;value name="LThrs4"&gt;&lt;property name="Value"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="DoubleValue"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Minimum"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Maximum"&gt;&lt;![CDATA[1000]]&gt;&lt;/property&gt;&lt;property name="Enabled"&gt;&lt;![CDATA[True]]&gt;&lt;/property&gt;&lt;/value&gt;&lt;value name="LThrs3"&gt;&lt;property name="Value"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="DoubleValue"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Minimum"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Maximum"&gt;&lt;![CDATA[1000]]&gt;&lt;/property&gt;&lt;property name="Enabled"&gt;&lt;![CDATA[True]]&gt;&lt;/property&gt;&lt;/value&gt;&lt;value name="LThrs2"&gt;&lt;property name="Value"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="DoubleValue"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Minimum"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Maximum"&gt;&lt;![CDATA[1000]]&gt;&lt;/property&gt;&lt;property name="Enabled"&gt;&lt;![CDATA[True]]&gt;&lt;/property&gt;&lt;/value&gt;&lt;value name="LThrs1"&gt;&lt;property name="Value"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="DoubleValue"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Minimum"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Maximum"&gt;&lt;![CDATA[1000]]&gt;&lt;/property&gt;&lt;property name="Enabled"&gt;&lt;![CDATA[True]]&gt;&lt;/property&gt;&lt;/value&gt;&lt;value name="Cleaning3"&gt;&lt;property name="Checked"&gt;&lt;![CDATA[False]]&gt;&lt;/property&gt;&lt;property name="CheckedAsByte"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Enabled"&gt;&lt;![CDATA[True]]&gt;&lt;/property&gt;&lt;/value&gt;&lt;value name="Cleaning2"&gt;&lt;property name="Checked"&gt;&lt;![CDATA[False]]&gt;&lt;/property&gt;&lt;property name="CheckedAsByte"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Enabled"&gt;&lt;![CDATA[True]]&gt;&lt;/property&gt;&lt;/value&gt;&lt;value name="Cleaning1"&gt;&lt;property name="Checked"&gt;&lt;![CDATA[False]]&gt;&lt;/property&gt;&lt;property name="CheckedAsByte"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Enabled"&gt;&lt;![CDATA[True]]&gt;&lt;/property&gt;&lt;/value&gt;&lt;value name="PumpSpd"&gt;&lt;property name="Value"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="DoubleValue"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Minimum"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Maximum"&gt;&lt;![CDATA[100]]&gt;&lt;/property&gt;&lt;property name="Enabled"&gt;&lt;![CDATA[True]]&gt;&lt;/property&gt;&lt;/value&gt;&lt;value name="DTime6"&gt;&lt;property name="Value"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="DoubleValue"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Minimum"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Maximum"&gt;&lt;![CDATA[100]]&gt;&lt;/property&gt;&lt;property name="Enabled"&gt;&lt;![CDATA[True]]&gt;&lt;/property&gt;&lt;/value&gt;&lt;value name="DTime5"&gt;&lt;property name="Value"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="DoubleValue"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Minimum"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Maximum"&gt;&lt;![CDATA[100]]&gt;&lt;/property&gt;&lt;property name="Enabled"&gt;&lt;![CDATA[True]]&gt;&lt;/property&gt;&lt;/value&gt;&lt;value name="DTime3"&gt;&lt;property name="Value"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="DoubleValue"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Minimum"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Maximum"&gt;&lt;![CDATA[100]]&gt;&lt;/property&gt;&lt;property name="Enabled"&gt;&lt;![CDATA[True]]&gt;&lt;/property&gt;&lt;/value&gt;&lt;value name="DTime2"&gt;&lt;property name="Value"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="DoubleValue"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Minimum"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Maximum"&gt;&lt;![CDATA[100]]&gt;&lt;/property&gt;&lt;property name="Enabled"&gt;&lt;![CDATA[True]]&gt;&lt;/property&gt;&lt;/value&gt;&lt;value name="DTime4"&gt;&lt;property name="Value"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="DoubleValue"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Minimum"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Maximum"&gt;&lt;![CDATA[100]]&gt;&lt;/property&gt;&lt;property name="Enabled"&gt;&lt;![CDATA[True]]&gt;&lt;/property&gt;&lt;/value&gt;&lt;value name="DTime1"&gt;&lt;property name="Value"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="DoubleValue"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Minimum"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Maximum"&gt;&lt;![CDATA[100]]&gt;&lt;/property&gt;&lt;property name="Enabled"&gt;&lt;![CDATA[True]]&gt;&lt;/property&gt;&lt;/value&gt;&lt;value name="Valve6P2"&gt;&lt;property name="Checked"&gt;&lt;![CDATA[False]]&gt;&lt;/property&gt;&lt;property name="CheckedAsByte"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Enabled"&gt;&lt;![CDATA[True]]&gt;&lt;/property&gt;&lt;/value&gt;&lt;value name="Valve5P2"&gt;&lt;property name="Checked"&gt;&lt;![CDATA[False]]&gt;&lt;/property&gt;&lt;property name="CheckedAsByte"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Enabled"&gt;&lt;![CDATA[True]]&gt;&lt;/property&gt;&lt;/value&gt;&lt;value name="Valve4P2"&gt;&lt;property name="Checked"&gt;&lt;![CDATA[False]]&gt;&lt;/property&gt;&lt;property name="CheckedAsByte"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Enabled"&gt;&lt;![CDATA[True]]&gt;&lt;/property&gt;&lt;/value&gt;&lt;value name="Valve3P2"&gt;&lt;property name="Checked"&gt;&lt;![CDATA[False]]&gt;&lt;/property&gt;&lt;property name="CheckedAsByte"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Enabled"&gt;&lt;![CDATA[True]]&gt;&lt;/property&gt;&lt;/value&gt;&lt;value name="Valve2P2"&gt;&lt;property name="Checked"&gt;&lt;![CDATA[False]]&gt;&lt;/property&gt;&lt;property name="CheckedAsByte"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Enabled"&gt;&lt;![CDATA[True]]&gt;&lt;/property&gt;&lt;/value&gt;&lt;value name="Valve1P2"&gt;&lt;property name="Checked"&gt;&lt;![CDATA[False]]&gt;&lt;/property&gt;&lt;property name="CheckedAsByte"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Enabled"&gt;&lt;![CDATA[True]]&gt;&lt;/property&gt;&lt;/value&gt;&lt;value name="Pump2"&gt;&lt;property name="Checked"&gt;&lt;![CDATA[False]]&gt;&lt;/property&gt;&lt;property name="CheckedAsByte"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Enabled"&gt;&lt;![CDATA[True]]&gt;&lt;/property&gt;&lt;/value&gt;&lt;value name="Pump1"&gt;&lt;property name="Checked"&gt;&lt;![CDATA[False]]&gt;&lt;/property&gt;&lt;property name="CheckedAsByte"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Enabled"&gt;&lt;![CDATA[True]]&gt;&lt;/property&gt;&lt;/value&gt;&lt;value name="CTime6"&gt;&lt;property name="Value"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="DoubleValue"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Minimum"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Maximum"&gt;&lt;![CDATA[100]]&gt;&lt;/property&gt;&lt;property name="Enabled"&gt;&lt;![CDATA[True]]&gt;&lt;/property&gt;&lt;/value&gt;&lt;value name="CTime5"&gt;&lt;property name="Value"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="DoubleValue"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Minimum"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Maximum"&gt;&lt;![CDATA[100]]&gt;&lt;/property&gt;&lt;property name="Enabled"&gt;&lt;![CDATA[True]]&gt;&lt;/property&gt;&lt;/value&gt;&lt;value name="CTime3"&gt;&lt;property name="Value"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="DoubleValue"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Minimum"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Maximum"&gt;&lt;![CDATA[100]]&gt;&lt;/property&gt;&lt;property name="Enabled"&gt;&lt;![CDATA[True]]&gt;&lt;/property&gt;&lt;/value&gt;&lt;value name="CTime2"&gt;&lt;property name="Value"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="DoubleValue"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Minimum"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Maximum"&gt;&lt;![CDATA[100]]&gt;&lt;/property&gt;&lt;property name="Enabled"&gt;&lt;![CDATA[True]]&gt;&lt;/property&gt;&lt;/value&gt;&lt;value name="CTime4"&gt;&lt;property name="Value"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="DoubleValue"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Minimum"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Maximum"&gt;&lt;![CDATA[100]]&gt;&lt;/property&gt;&lt;property name="Enabled"&gt;&lt;![CDATA[True]]&gt;&lt;/property&gt;&lt;/value&gt;&lt;value name="CTime1"&gt;&lt;property name="Value"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="DoubleValue"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Minimum"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Maximum"&gt;&lt;![CDATA[100]]&gt;&lt;/property&gt;&lt;property name="Enabled"&gt;&lt;![CDATA[True]]&gt;&lt;/property&gt;&lt;/value&gt;&lt;value name="Thrs6"&gt;&lt;property name="Value"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="DoubleValue"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Minimum"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Maximum"&gt;&lt;![CDATA[1000]]&gt;&lt;/property&gt;&lt;property name="Enabled"&gt;&lt;![CDATA[True]]&gt;&lt;/property&gt;&lt;/value&gt;&lt;value name="Thrs5"&gt;&lt;property name="Value"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="DoubleValue"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Minimum"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Maximum"&gt;&lt;![CDATA[1000]]&gt;&lt;/property&gt;&lt;property name="Enabled"&gt;&lt;![CDATA[True]]&gt;&lt;/property&gt;&lt;/value&gt;&lt;value name="Thrs4"&gt;&lt;property name="Value"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="DoubleValue"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Minimum"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Maximum"&gt;&lt;![CDATA[1000]]&gt;&lt;/property&gt;&lt;property name="Enabled"&gt;&lt;![CDATA[True]]&gt;&lt;/property&gt;&lt;/value&gt;&lt;value name="Thrs3"&gt;&lt;property name="Value"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="DoubleValue"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Minimum"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Maximum"&gt;&lt;![CDATA[1000]]&gt;&lt;/property&gt;&lt;property name="Enabled"&gt;&lt;![CDATA[True]]&gt;&lt;/property&gt;&lt;/value&gt;&lt;value name="Thrs2"&gt;&lt;property name="Value"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="DoubleValue"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Minimum"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Maximum"&gt;&lt;![CDATA[1000]]&gt;&lt;/property&gt;&lt;property name="Enabled"&gt;&lt;![CDATA[True]]&gt;&lt;/property&gt;&lt;/value&gt;&lt;value name="Thrs1"&gt;&lt;property name="Value"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="DoubleValue"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Minimum"&gt;&lt;![CDATA[0]]&gt;&lt;/property&gt;&lt;property name="Maximum"&gt;&lt;![CDATA[1000]]&gt;&lt;/property&gt;&lt;property name="Enabled"&gt;&lt;![CDATA[True]]&gt;&lt;/property&gt;&lt;/value&gt;&lt;/values&gt;&lt;/mlp-interface-values&gt;</values>
+              </value-set>
+            </value-store>
+            <instance-id>a8316ac3-a3e2-464c-87bd-81f820524de4</instance-id>
+            <TabTitle>Settings</TabTitle>
+            <ShowSourceInTitle>false</ShowSourceInTitle>
+            <ShowPortInTitle>false</ShowPortInTitle>
+            <SourceId>1</SourceId>
+          </Content>
+          <Content ID="5" PersistString="InterfacePanel" AutoHidePortion="0.25" IsHidden="False" IsFloat="False">
+            <design type="InterfacePanel">
+              <children child-list="Controls">
+                <component type="IPControlLibrary.Controls.IPProgressBar, IPControlLibrary, Version=1.5.15360.1226, Culture=neutral, PublicKeyToken=null" name="AgLight">
+                  <properties>
+                    <property name="Maximum">1</property>
+                    <property name="Step">1</property>
+                    <property name="Location">151, 27</property>
+                    <property name="Name">AgLight</property>
+                    <property name="Size">19, 23</property>
+                    <property name="TabIndex">54</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPButton, IPControlLibrary, Version=1.5.15360.1226, Culture=neutral, PublicKeyToken=null" name="IPButton11">
+                  <properties>
+                    <property name="OnClickSend">!AgOff\r</property>
+                    <property name="Text">Off</property>
+                    <property name="Location">113, 89</property>
+                    <property name="Name">IPButton11</property>
+                    <property name="Size">75, 23</property>
+                    <property name="TabIndex">53</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label18">
+                  <properties>
+                    <property name="Text">Agitation</property>
+                    <property name="Font">Microsoft Sans Serif, 9.75pt, style=Bold</property>
+                    <property name="Location">24, 27</property>
+                    <property name="Name">Label18</property>
+                    <property name="Size">146, 23</property>
+                    <property name="TabIndex">52</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPButton, IPControlLibrary, Version=1.5.15360.1226, Culture=neutral, PublicKeyToken=null" name="IPButton1">
+                  <properties>
+                    <property name="OnClickSend">!AgOn\r</property>
+                    <property name="Text">On</property>
+                    <property name="Location">24, 89</property>
+                    <property name="Name">IPButton1</property>
+                    <property name="Size">71, 23</property>
+                    <property name="TabIndex">51</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label1">
+                  <properties>
+                    <property name="AutoSize">True</property>
+                    <property name="Text">Motor Speed:</property>
+                    <property name="Location">24, 156</property>
+                    <property name="Name">Label1</property>
+                    <property name="Size">71, 13</property>
+                    <property name="TabIndex">50</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPNumericUpDown, IPControlLibrary, Version=1.5.15360.1226, Culture=neutral, PublicKeyToken=null" name="Spd">
+                  <children child-list="Controls" />
+                  <properties>
+                    <property name="OnValueChangedSend">!SetSpd [10-Spd.Value]\r</property>
+                    <property name="Maximum">10</property>
+                    <property name="Minimum">1</property>
+                    <property name="Value">10</property>
+                    <property name="Location">120, 156</property>
+                    <property name="Name">Spd</property>
+                    <property name="Size">68, 20</property>
+                    <property name="TabIndex">49</property>
+                  </properties>
+                </component>
+              </children>
+              <properties>
+                <property name="Name">UserControl1</property>
+                <property name="Size">374, 756</property>
+              </properties>
+              <components>
+                <component type="IPControlLibrary.Protocols.MLPMessageProcessor.MLPUIMessageProcessor, IPControlLibrary, Version=1.5.15360.1226, Culture=neutral, PublicKeyToken=null" name="MLPUIMessageProcessor1">
+                  <properties>
+                    <property name="ChannelName">Control</property>
+                  </properties>
+                </component>
+              </components>
+            </design>
+            <values>
+              <value name="AgLight">
+                <property name="Value"><![CDATA[0]]></property>
+                <property name="Minimum"><![CDATA[0]]></property>
+                <property name="Maximum"><![CDATA[1]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="IPButton11">
+                <property name="Text"><![CDATA[Off]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="IPButton1">
+                <property name="Text"><![CDATA[On]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="Spd">
+                <property name="Value"><![CDATA[8]]></property>
+                <property name="DoubleValue"><![CDATA[8]]></property>
+                <property name="Minimum"><![CDATA[1]]></property>
+                <property name="Maximum"><![CDATA[10]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+            </values>
+            <value-store />
+            <instance-id>8836aca7-ed8c-4e08-b048-27f52216bfa7</instance-id>
+            <TabTitle>Agitation</TabTitle>
+            <ShowSourceInTitle>false</ShowSourceInTitle>
+            <ShowPortInTitle>false</ShowPortInTitle>
+            <SourceId>2</SourceId>
+          </Content>
+          <Content ID="6" PersistString="InterfacePanel" AutoHidePortion="0.25" IsHidden="False" IsFloat="False">
+            <design type="InterfacePanel">
+              <children child-list="Controls">
+                <component type="IPControlLibrary.Controls.IPNumericUpDown, IPControlLibrary, Version=1.5.16073.313, Culture=neutral, PublicKeyToken=null" name="V06">
+                  <children child-list="Controls" />
+                  <properties>
+                    <property name="OnValueChangedSend">!V06 [V06.Value]\r</property>
+                    <property name="DecimalPlaces">2</property>
+                    <property name="Increment">0.01</property>
+                    <property name="Minimum">-100</property>
+                    <property name="Location">163, 225</property>
+                    <property name="Name">V06</property>
+                    <property name="Size">47, 20</property>
+                    <property name="TabIndex">28</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPNumericUpDown, IPControlLibrary, Version=1.5.16073.313, Culture=neutral, PublicKeyToken=null" name="V05">
+                  <children child-list="Controls" />
+                  <properties>
+                    <property name="OnValueChangedSend">!V05 [V05.Value]\r</property>
+                    <property name="DecimalPlaces">2</property>
+                    <property name="Increment">0.01</property>
+                    <property name="Minimum">-100</property>
+                    <property name="Location">163, 185</property>
+                    <property name="Name">V05</property>
+                    <property name="Size">47, 20</property>
+                    <property name="TabIndex">27</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPNumericUpDown, IPControlLibrary, Version=1.5.16073.313, Culture=neutral, PublicKeyToken=null" name="V04">
+                  <children child-list="Controls" />
+                  <properties>
+                    <property name="OnValueChangedSend">!V04 [V04.Value]\r</property>
+                    <property name="DecimalPlaces">2</property>
+                    <property name="Increment">0.01</property>
+                    <property name="Minimum">-100</property>
+                    <property name="Location">163, 151</property>
+                    <property name="Name">V04</property>
+                    <property name="Size">47, 20</property>
+                    <property name="TabIndex">26</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPNumericUpDown, IPControlLibrary, Version=1.5.16073.313, Culture=neutral, PublicKeyToken=null" name="V03">
+                  <children child-list="Controls" />
+                  <properties>
+                    <property name="OnValueChangedSend">!V03 [V03.Value]\r</property>
+                    <property name="DecimalPlaces">2</property>
+                    <property name="Increment">0.01</property>
+                    <property name="Minimum">-100</property>
+                    <property name="Location">163, 116</property>
+                    <property name="Name">V03</property>
+                    <property name="Size">47, 20</property>
+                    <property name="TabIndex">25</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPNumericUpDown, IPControlLibrary, Version=1.5.16073.313, Culture=neutral, PublicKeyToken=null" name="V02">
+                  <children child-list="Controls" />
+                  <properties>
+                    <property name="OnValueChangedSend">!V02 [V02.Value]\r</property>
+                    <property name="DecimalPlaces">2</property>
+                    <property name="Increment">0.01</property>
+                    <property name="Minimum">-100</property>
+                    <property name="Location">163, 78</property>
+                    <property name="Name">V02</property>
+                    <property name="Size">47, 20</property>
+                    <property name="TabIndex">24</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPNumericUpDown, IPControlLibrary, Version=1.5.16073.313, Culture=neutral, PublicKeyToken=null" name="V01">
+                  <children child-list="Controls" />
+                  <properties>
+                    <property name="OnValueChangedSend">!V01 [V01.Value]\r</property>
+                    <property name="DecimalPlaces">2</property>
+                    <property name="Increment">0.01</property>
+                    <property name="Minimum">-100</property>
+                    <property name="Location">163, 39</property>
+                    <property name="Name">V01</property>
+                    <property name="Size">47, 20</property>
+                    <property name="TabIndex">23</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPNumericUpDown, IPControlLibrary, Version=1.5.16073.313, Culture=neutral, PublicKeyToken=null" name="C6">
+                  <children child-list="Controls" />
+                  <properties>
+                    <property name="OnValueChangedSend">!C6 [C6.Value]\r</property>
+                    <property name="DecimalPlaces">2</property>
+                    <property name="Increment">0.01</property>
+                    <property name="Minimum">-100</property>
+                    <property name="Location">90, 225</property>
+                    <property name="Name">C6</property>
+                    <property name="Size">47, 20</property>
+                    <property name="TabIndex">22</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPNumericUpDown, IPControlLibrary, Version=1.5.16073.313, Culture=neutral, PublicKeyToken=null" name="C5">
+                  <children child-list="Controls" />
+                  <properties>
+                    <property name="OnValueChangedSend">!C5 [C5.Value]\r</property>
+                    <property name="DecimalPlaces">2</property>
+                    <property name="Increment">0.01</property>
+                    <property name="Minimum">-100</property>
+                    <property name="Location">90, 185</property>
+                    <property name="Name">C5</property>
+                    <property name="Size">47, 20</property>
+                    <property name="TabIndex">21</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPNumericUpDown, IPControlLibrary, Version=1.5.16073.313, Culture=neutral, PublicKeyToken=null" name="C4">
+                  <children child-list="Controls" />
+                  <properties>
+                    <property name="OnValueChangedSend">!C4 [C4.Value]\r</property>
+                    <property name="DecimalPlaces">2</property>
+                    <property name="Increment">0.01</property>
+                    <property name="Minimum">-100</property>
+                    <property name="Location">90, 151</property>
+                    <property name="Name">C4</property>
+                    <property name="Size">47, 20</property>
+                    <property name="TabIndex">20</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPNumericUpDown, IPControlLibrary, Version=1.5.16073.313, Culture=neutral, PublicKeyToken=null" name="C3">
+                  <children child-list="Controls" />
+                  <properties>
+                    <property name="OnValueChangedSend">!C3 [C3.Value]\r</property>
+                    <property name="DecimalPlaces">2</property>
+                    <property name="Increment">0.01</property>
+                    <property name="Minimum">-100</property>
+                    <property name="Location">90, 116</property>
+                    <property name="Name">C3</property>
+                    <property name="Size">47, 20</property>
+                    <property name="TabIndex">19</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPNumericUpDown, IPControlLibrary, Version=1.5.16073.313, Culture=neutral, PublicKeyToken=null" name="C2">
+                  <children child-list="Controls" />
+                  <properties>
+                    <property name="OnValueChangedSend">!C2 [C2.Value]\r</property>
+                    <property name="DecimalPlaces">2</property>
+                    <property name="Increment">0.01</property>
+                    <property name="Minimum">-100</property>
+                    <property name="Location">90, 78</property>
+                    <property name="Name">C2</property>
+                    <property name="Size">47, 20</property>
+                    <property name="TabIndex">18</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPNumericUpDown, IPControlLibrary, Version=1.5.16073.313, Culture=neutral, PublicKeyToken=null" name="C1">
+                  <children child-list="Controls" />
+                  <properties>
+                    <property name="OnValueChangedSend">!C1 [C1.Value]\r</property>
+                    <property name="DecimalPlaces">2</property>
+                    <property name="Increment">0.01</property>
+                    <property name="Minimum">-100</property>
+                    <property name="Location">90, 39</property>
+                    <property name="Name">C1</property>
+                    <property name="Size">47, 20</property>
+                    <property name="TabIndex">17</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label9">
+                  <properties>
+                    <property name="Text">V0</property>
+                    <property name="Location">174, 13</property>
+                    <property name="Name">Label9</property>
+                    <property name="Size">100, 23</property>
+                    <property name="TabIndex">16</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label8">
+                  <properties>
+                    <property name="Text">C</property>
+                    <property name="Location">110, 13</property>
+                    <property name="Name">Label8</property>
+                    <property name="Size">100, 23</property>
+                    <property name="TabIndex">15</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label7">
+                  <properties>
+                    <property name="Text">OD = C x log(Voltage) + V0</property>
+                    <property name="Location">61, 273</property>
+                    <property name="Name">Label7</property>
+                    <property name="Size">149, 23</property>
+                    <property name="TabIndex">14</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label6">
+                  <properties>
+                    <property name="Text">Tube 6</property>
+                    <property name="Location">14, 225</property>
+                    <property name="Name">Label6</property>
+                    <property name="Size">48, 23</property>
+                    <property name="TabIndex">13</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label5">
+                  <properties>
+                    <property name="Text">Tube 5</property>
+                    <property name="Location">14, 185</property>
+                    <property name="Name">Label5</property>
+                    <property name="Size">52, 23</property>
+                    <property name="TabIndex">12</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label4">
+                  <properties>
+                    <property name="Text">Tube 4</property>
+                    <property name="Location">16, 151</property>
+                    <property name="Name">Label4</property>
+                    <property name="Size">52, 23</property>
+                    <property name="TabIndex">11</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label3">
+                  <properties>
+                    <property name="Text">Tube 3</property>
+                    <property name="Location">16, 116</property>
+                    <property name="Name">Label3</property>
+                    <property name="Size">52, 23</property>
+                    <property name="TabIndex">10</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label2">
+                  <properties>
+                    <property name="Text">Tube 2</property>
+                    <property name="Location">14, 78</property>
+                    <property name="Name">Label2</property>
+                    <property name="Size">52, 23</property>
+                    <property name="TabIndex">9</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label1">
+                  <properties>
+                    <property name="Text">Tube 1</property>
+                    <property name="Location">14, 39</property>
+                    <property name="Name">Label1</property>
+                    <property name="Size">58, 23</property>
+                    <property name="TabIndex">8</property>
+                  </properties>
+                </component>
+              </children>
+              <properties>
+                <property name="Name">UserControl1</property>
+                <property name="Size">480, 756</property>
+              </properties>
+              <components>
+                <component type="IPControlLibrary.Protocols.MLPMessageProcessor.MLPUIMessageProcessor, IPControlLibrary, Version=1.5.16073.313, Culture=neutral, PublicKeyToken=null" name="MLPUIMessageProcessor1">
+                  <properties>
+                    <property name="ChannelName">Calibration</property>
+                  </properties>
+                </component>
+              </components>
+            </design>
+            <values>
+              <value name="V06">
+                <property name="Value"><![CDATA[2.620]]></property>
+                <property name="DoubleValue"><![CDATA[2.62]]></property>
+                <property name="Minimum"><![CDATA[-100]]></property>
+                <property name="Maximum"><![CDATA[100]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="V05">
+                <property name="Value"><![CDATA[2.660]]></property>
+                <property name="DoubleValue"><![CDATA[2.66]]></property>
+                <property name="Minimum"><![CDATA[-100]]></property>
+                <property name="Maximum"><![CDATA[100]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="V04">
+                <property name="Value"><![CDATA[2.750]]></property>
+                <property name="DoubleValue"><![CDATA[2.75]]></property>
+                <property name="Minimum"><![CDATA[-100]]></property>
+                <property name="Maximum"><![CDATA[100]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="V03">
+                <property name="Value"><![CDATA[3.010]]></property>
+                <property name="DoubleValue"><![CDATA[3.01]]></property>
+                <property name="Minimum"><![CDATA[-100]]></property>
+                <property name="Maximum"><![CDATA[100]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="V02">
+                <property name="Value"><![CDATA[2.750]]></property>
+                <property name="DoubleValue"><![CDATA[2.75]]></property>
+                <property name="Minimum"><![CDATA[-100]]></property>
+                <property name="Maximum"><![CDATA[100]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="V01">
+                <property name="Value"><![CDATA[3.110]]></property>
+                <property name="DoubleValue"><![CDATA[3.11]]></property>
+                <property name="Minimum"><![CDATA[-100]]></property>
+                <property name="Maximum"><![CDATA[100]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="C6">
+                <property name="Value"><![CDATA[-0.470]]></property>
+                <property name="DoubleValue"><![CDATA[-0.47]]></property>
+                <property name="Minimum"><![CDATA[-100]]></property>
+                <property name="Maximum"><![CDATA[100]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="C5">
+                <property name="Value"><![CDATA[-0.480]]></property>
+                <property name="DoubleValue"><![CDATA[-0.48]]></property>
+                <property name="Minimum"><![CDATA[-100]]></property>
+                <property name="Maximum"><![CDATA[100]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="C4">
+                <property name="Value"><![CDATA[-0.510]]></property>
+                <property name="DoubleValue"><![CDATA[-0.51]]></property>
+                <property name="Minimum"><![CDATA[-100]]></property>
+                <property name="Maximum"><![CDATA[100]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="C3">
+                <property name="Value"><![CDATA[-0.550]]></property>
+                <property name="DoubleValue"><![CDATA[-0.55]]></property>
+                <property name="Minimum"><![CDATA[-100]]></property>
+                <property name="Maximum"><![CDATA[100]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="C2">
+                <property name="Value"><![CDATA[-0.500]]></property>
+                <property name="DoubleValue"><![CDATA[-0.5]]></property>
+                <property name="Minimum"><![CDATA[-100]]></property>
+                <property name="Maximum"><![CDATA[100]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="C1">
+                <property name="Value"><![CDATA[-0.570]]></property>
+                <property name="DoubleValue"><![CDATA[-0.57]]></property>
+                <property name="Minimum"><![CDATA[-100]]></property>
+                <property name="Maximum"><![CDATA[100]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+            </values>
+            <value-store />
+            <instance-id>3e90e123-026e-4eaa-b966-8365b328008f</instance-id>
+            <TabTitle>Calibration</TabTitle>
+            <ShowSourceInTitle>false</ShowSourceInTitle>
+            <ShowPortInTitle>false</ShowPortInTitle>
+            <SourceId>1</SourceId>
+          </Content>
+          <Content ID="7" PersistString="MessageStreamViewer" AutoHidePortion="0.25" IsHidden="False" IsFloat="False">
+            <Channels>
+              <auto>false</auto>
+              <default>false</default>
+              <selected>Pumps</selected>
+            </Channels>
+            <InsertTimestamp>false</InsertTimestamp>
+            <WordWrap>true</WordWrap>
+            <IncludeDate>false</IncludeDate>
+            <IncludeTime>false</IncludeTime>
+            <IncludeCustom>false</IncludeCustom>
+            <CustomTimeStamp />
+            <AutoScroll>false</AutoScroll>
+            <ShowEOLMarkers>false</ShowEOLMarkers>
+            <ShowLineTime>true</ShowLineTime>
+            <ShowLineDate>true</ShowLineDate>
+            <instance-id>d65a76be-4fa8-406e-b9fc-d59bf7d07640</instance-id>
+            <TabTitle>Pump monitor</TabTitle>
+            <ShowSourceInTitle>false</ShowSourceInTitle>
+            <ShowPortInTitle>false</ShowPortInTitle>
+            <SourceId>1</SourceId>
+          </Content>
+          <Content ID="8" PersistString="FileWriter" AutoHidePortion="0.25" IsHidden="False" IsFloat="False">
+            <Channels>
+              <auto>false</auto>
+              <default>true</default>
+              <selected>Pumps</selected>
+            </Channels>
+            <file-path>
+              <path>C:\Users\admin\Documents\Data Logs\EC_Megasequencing_1-8-2019\Pumps.txt</path>
+              <relative>false</relative>
+            </file-path>
+            <IncludeDate>true</IncludeDate>
+            <IncludeTime>true</IncludeTime>
+            <InsertTimestamp>true</InsertTimestamp>
+            <AutoStartLogging>false</AutoStartLogging>
+            <IncludeDateInFilename>false</IncludeDateInFilename>
+            <IncludeTimeInFilename>false</IncludeTimeInFilename>
+            <instance-id>1b79e0f1-536f-4a11-8d9b-9d37f647e73a</instance-id>
+            <TabTitle>Message Logger-Pumps</TabTitle>
+            <ShowSourceInTitle>false</ShowSourceInTitle>
+            <ShowPortInTitle>false</ShowPortInTitle>
+            <SourceId>1</SourceId>
+            <reporting-enabled>false</reporting-enabled>
+          </Content>
+        </Contents>
+        <Panes Count="7">
+          <Pane ID="0" DockState="Document" ActiveContent="1">
+            <Contents Count="3">
+              <Content ID="0" RefID="8" />
+              <Content ID="1" RefID="3" />
+              <Content ID="2" RefID="1" />
+            </Contents>
+          </Pane>
+          <Pane ID="1" DockState="Document" ActiveContent="2">
+            <Contents Count="2">
+              <Content ID="0" RefID="2" />
+              <Content ID="1" RefID="7" />
+            </Contents>
+          </Pane>
+          <Pane ID="2" DockState="Float" ActiveContent="-1">
+            <Contents Count="1">
+              <Content ID="0" RefID="0" />
+            </Contents>
+          </Pane>
+          <Pane ID="3" DockState="Float" ActiveContent="-1">
+            <Contents Count="1">
+              <Content ID="0" RefID="2" />
+            </Contents>
+          </Pane>
+          <Pane ID="4" DockState="Document" ActiveContent="0">
+            <Contents Count="4">
+              <Content ID="0" RefID="0" />
+              <Content ID="1" RefID="4" />
+              <Content ID="2" RefID="5" />
+              <Content ID="3" RefID="6" />
+            </Contents>
+          </Pane>
+          <Pane ID="5" DockState="Float" ActiveContent="-1">
+            <Contents Count="1">
+              <Content ID="0" RefID="7" />
+            </Contents>
+          </Pane>
+          <Pane ID="6" DockState="Float" ActiveContent="-1">
+            <Contents Count="1">
+              <Content ID="0" RefID="4" />
+            </Contents>
+          </Pane>
+        </Panes>
+        <DockWindows>
+          <DockWindow ID="0" DockState="Document" ZOrderIndex="0">
+            <NestedPanes Count="3">
+              <Pane ID="0" RefID="0" PrevPane="-1" Alignment="Right" Proportion="0.5" />
+              <Pane ID="1" RefID="4" PrevPane="0" Alignment="Left" Proportion="0.325668333885857" />
+              <Pane ID="2" RefID="1" PrevPane="0" Alignment="Bottom" Proportion="0.870846879523358" />
+            </NestedPanes>
+          </DockWindow>
+          <DockWindow ID="1" DockState="DockLeft" ZOrderIndex="1">
+            <NestedPanes Count="0" />
+          </DockWindow>
+          <DockWindow ID="2" DockState="DockRight" ZOrderIndex="2">
+            <NestedPanes Count="0" />
+          </DockWindow>
+          <DockWindow ID="3" DockState="DockTop" ZOrderIndex="3">
+            <NestedPanes Count="0" />
+          </DockWindow>
+          <DockWindow ID="4" DockState="DockBottom" ZOrderIndex="4">
+            <NestedPanes Count="0" />
+          </DockWindow>
+        </DockWindows>
+        <FloatWindows Count="4">
+          <FloatWindow ID="0" Bounds="447, 238, 300, 300" ZOrderIndex="0">
+            <NestedPanes Count="1">
+              <Pane ID="0" RefID="5" PrevPane="-1" Alignment="Right" Proportion="0.5" />
+            </NestedPanes>
+          </FloatWindow>
+          <FloatWindow ID="1" Bounds="494, 238, 845, 464" ZOrderIndex="1">
+            <NestedPanes Count="1">
+              <Pane ID="0" RefID="3" PrevPane="-1" Alignment="Right" Proportion="0.5" />
+            </NestedPanes>
+          </FloatWindow>
+          <FloatWindow ID="2" Bounds="156, 156, 300, 300" ZOrderIndex="2">
+            <NestedPanes Count="1">
+              <Pane ID="0" RefID="6" PrevPane="-1" Alignment="Right" Proportion="0.5" />
+            </NestedPanes>
+          </FloatWindow>
+          <FloatWindow ID="3" Bounds="29, 422, 300, 300" ZOrderIndex="3">
+            <NestedPanes Count="1">
+              <Pane ID="0" RefID="2" PrevPane="-1" Alignment="Right" Proportion="0.5" />
+            </NestedPanes>
+          </FloatWindow>
+        </FloatWindows>
+      </DockPanel>
+    </window>
+  </windows>
+</meguno-link-project>
