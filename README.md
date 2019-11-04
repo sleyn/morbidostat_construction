@@ -22,41 +22,41 @@ Morbidostat has five types of the tubing parts:
 4.	**Reactor** – glass culture tube. Has three ports: input, sampling and waste. In all three ports blunt needles are inserted into the septa. OD in the reactor is measured by laser that is located in the tube rack. To introduce mixing a small stirring motor with the magnets rotates the bar in the tube.
 5.	**Waste line** – open line which leads to the bottle with sodium azide. Waste is removed from the reactor by the air pressure. The line has a check valve that prevents backflow of the waste media from the tubing to the reactor.
 
-<p style="text-align: center;">![General scheme of the morbidostat tubing](./img/fig1_tubing_scheme.png)<br>
-**Figure 1.** General scheme of the morbidostat tubing. Tubing colors:  
- ![](./img/green_square.png) *green* – fresh media, ![](./img/red_square.png) *red* – drug-containing media, ![](./img/blue_square.png) *blue* – air.</p>
+<p style="text-align: center;"><img alt='General scheme of the morbidostat tubing' src='./img/fig1_tubing_scheme.png'><br>
+<b>Figure 1.</b> General scheme of the morbidostat tubing. Tubing colors:  
+ <img src='./img/green_square.png'> *green* – fresh media, <img src='./img/red_square.png'> *red* – drug-containing media, <img src='./img/blue_square.png'> *blue* – air.</p>
 
 #### 2.1 Detailed tubing description
-<p style="text-align: center;">![Detailed tubing scheme](./img/fig2_detailed_scheme.png)<br>
-**Figure 3.** Detailed tubing scheme.  
+<p style="text-align: center;"><img alt='Detailed tubing scheme' src='./img/fig2_detailed_scheme.png'><br>
+<b>Figure 2.</b> Detailed tubing scheme.  
 The part numbers are indicated according the supplementary parts specification table.</p>
 
 ##### 2.1.1	Media bottles with the connection lines
-<p style="text-align: center;">![Media bottle](./img/fig3_bottle.png)<br>
-**Figure 3.** Media bottle with tubing.  
+<p style="text-align: center;"><img alt='Media bottle' src='./img/fig3_bottle.png'><br>
+<b>Figure 3.</b> Media bottle with tubing.  
 Alpha-numeric parts numbers in parenthesis here and further identify components in the parts specification table.</p>
 
-<p style="text-align: center;"><p style="text-align: center;">![Media bottle](./img/fig4_connection_line.png)<br>
-**Figure 4.** Connection line.</p>
+<p style="text-align: center;"><p style="text-align: center;"><img alt='Media bottle' src='./img/fig4_connection_line.png'><br>
+<b>Figure 4.</b> Connection line.</p>
 
 ##### 2.1.2 Distribution lines
 <p style="text-align: center;">
-![Connection line](./img/fig5_p1_distribution.png)<br>
-**Figure 5.** Fresh media distribution line.</p>
+<img alt='Connection line' src='./img/fig5_p1_distribution.png'><br>
+<b>Figure 5.</b> Fresh media distribution line.</p>
 
 <p style="text-align: center;">
-![Connection line](./img/fig6_p2_distribution.png)<br>
-**Figure 6.** Drug-containing media distribution line. Tubing scheme is the same as for the line on figure 4 but has an additional elongation segment.</p>
+<img alt='Connection line' src='./img/fig6_p2_distribution.png'><br>
+<b>Figure 6.</b> Drug-containing media distribution line. Tubing scheme is the same as for the line on figure 4 but has an additional elongation segment.</p>
 
 ##### 2.1.3 Reactor tubing and reactor
 <p style="text-align: center;">
-![Reactor](./img/fig7_reactor.png)<br>
-**Figure 7.** Reactor and reactor tubing.</p>
+<img alt='Reactor' src='./img/fig7_reactor.png'><br>
+<b>Figure 7.</b> Reactor and reactor tubing.</p>
 
 ##### 2.1.4 Waste lines
 <p style="text-align: center;">
-![Waste line](./img/fig8_waste.png)<br>
-**Figure 8.** Waste.</p>
+<img alt='Waste line' src='./img/fig8_waste.png'><br>
+<b>Figure 8.</b> Waste.</p>
 
 #### 3.1 Detailed mechanical parts description
 
