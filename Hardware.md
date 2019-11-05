@@ -1,7 +1,7 @@
 # Morbidostat hardware components
 
-- [1. Fluidics](#1.-fluidics)
-  * [1.1 Detailed tubing description](1.1-detailed-tubing-description)
+- [1. Fluidics](#fluidics)
+  * [1.1 Detailed tubing description](#detailed-tubing-description)
 
 ## 1. Fluidics
 Morbidostat has five types of the tubing parts:
