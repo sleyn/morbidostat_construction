@@ -3,6 +3,7 @@
 - [1. Fluidics](#fluidics)
   * [1.1 Detailed tubing description](#detailed-tubing-description)
 
+<a name='fluidics'></a>
 ## 1. Fluidics
 Morbidostat has five types of the tubing parts:
 1.	**Media bottles with the connection lines** – store drug-containing and fresh media and connect bottles to the pumps.
@@ -15,6 +16,7 @@ Morbidostat has five types of the tubing parts:
 **Figure 1.** General scheme of the morbidostat tubing. Tubing colors:  
  ![](./img/green_square.png) *green* – fresh media, ![](./img/red_square.png) *red* – drug-containing media, ![](./img/blue_square.png) *blue* – air.
 
+<a name='detailed-tubing-description'></a>
 ### 1.1 Detailed tubing description
 ![Detailed tubing scheme](./img/fig2_detailed_scheme.png)<br>
 **Figure 3.** Detailed tubing scheme.  
