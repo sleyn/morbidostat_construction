@@ -67,8 +67,8 @@ Morbidostat contains several mechanical parts:
 
 ### 3.1 Detailed mechanical parts description
 
-![Valve_A](./img/fig9_valve_front.png)![Valve_B](./img/fig9_valve_top.png)<br>
-**Figure 9.** Pinch valve for restricting media flow. A – front view; B – top view. Distribution lines are inserted to the channels on the sides. Bracket, lever and wedges are 3D-printed. The STL files with models could be found in the `3D_printing` folder.
+![Valve_A](./img/fig9_valve_front.png) ![Valve_B](./img/fig9_valve_top.png)<br>
+**Figure 9.** Pinch valve for restricting media flow. A – front view; B – top view. Distribution lines are inserted to the channels on the sides. Flow is restricted by servo motors that push wedges that clamp tubing. Bracket, lever and wedges are 3D-printed. The STL files with models could be found in the `3D_printing` folder.
 
 ![Pump](./img/fig10_pump.png)<br>
 **Figure 10.** Peristaltic pump for media.
@@ -91,7 +91,7 @@ To build Photodiode Voltage output to OD calibration curve we are using barium s
 ![Photodetector](./img/fig13_detector.png)<br>
 **Figure 13.** Photodetector. STL file for the photodetector case could be found in the `3D_printing` folder.
 
-![Laser back](./img/fig14_laser_back.png)![Laser top](./img/fig14_laser_top.png)<br>
+![Laser back](./img/fig14_laser_back.png) ![Laser top](./img/fig14_laser_top.png)<br>
 **Figure 14.** Laser. A. Back view, B. View from above. STL files for the laser case and gasket could be found in the `3D_printing` folder.
 
 ## 5. Electrical schemes
@@ -118,7 +118,24 @@ All morbidostat elements and logic except the agitation are controlled by Arduin
 ![Board1](./img/fig19_board1.jpg)<br>
 **Figure 19.** Assembled laser control board 1.
 
+![Board2 scheme](./img/fig20_board2_scheme.png)<br>
+**Figure 20.** Board 2 is responsible for stirring motors control, powering photodetectors and cleaning the pump control signal.
 
+![Board2](./img/fig21_board2.png)<br>
+**Figure 21.** Assembled control board 2.
+
+![Servo wiring](./img/fig22_servo.png)<br>
+**Figure 22.** Wiring of the servo motor control board.
+
+## 6. Assembled Morbidostat
+
+Morbidostat was assembled in the custom-made box equipped with thermostat, web-camera and air pump.
+
+![Morbidostat side](./img/fig23_overview_side.png)<br>
+**Figure 23.** Morbidostat. Side view.
+
+![Morbidostat top](./img/fig24_overview_top.png)<br>
+**Figure 24.** Morbidostat. View form above.
 
 ## References
 
