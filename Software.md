@@ -18,48 +18,48 @@ Interface has 3 major sections:
 2.	![](./img/blue_square.png) Run controls
 3.	![](./img/green_square.png) Real-time plots/logs from the current run.
 
-![Software main](./img/figS1.png)
+![Software main](./img/figS1.jpg)
 
 ### 1. Connection controls/Logs outputs controls
 In this part you can control general connection of computer to the morbidostat logic boards and set output log files.
 
 - **Connection manager**
 
-![Connection manager](./img/figS2.png)
+![Connection manager](./img/figS2.jpg)
 
 - **Message logger**
 
-![Message logger](./img/figS3.png)
+![Message logger](./img/figS3.jpg)
 
 ### 2. Run controls
 In this section you can control morbidostat process (turn on/of OD reading, media pumps, heater, air pump) and set parameters for the run (thresholds, dilution rates, temperature in the chamber, select tubes that are used in the experiment).
 
 - **Control tab**
 
-![Control tab](./img/figS4.png)
+![Control tab](./img/figS4.jpg)
 
 - **Settings tab**
 
-![Settings tab](./img/figS5.png)
+![Settings tab](./img/figS5.jpg)
 
 - **Agitation tab**
 
-![Agitation tab](./img/figS6.png)
+![Agitation tab](./img/figS6.jpg)
 
 - **Calibration**
 
-![Calibration tab](./img/figS7.png)
+![Calibration tab](./img/figS7.jpg)
 
 ### 3. Real-time plots/logs from the current run
 Sections shows OD plot and log of pumps activations.
 
 - **OD plot**
 
-![OD plot](./img/figS8.png)
+![OD plot](./img/figS8.jpg)
 
 - **Pump engagement log**
 
-![!Pump log](./img/figS9.png)
+![!Pump log](./img/figS9.jpg)
 
 ## References
 

@@ -26,45 +26,45 @@ Morbidostat has five types of the tubing parts:
 4.	**Reactor** – glass culture tube. Has three ports: input, sampling and waste. In all three ports blunt needles are inserted into the septa. OD in the reactor is measured by laser that is located in the tube rack. To introduce mixing a small stirring motor with the magnets rotates the bar in the tube.
 5.	**Waste line** – open line which leads to the bottle with sodium azide. Waste is removed from the reactor by the air pressure. The line has a check valve that prevents backflow of the waste media from the tubing to the reactor.
 
-![General scheme of the morbidostat tubing](./img/fig1_tubing_scheme.png)<br>
+![General scheme of the morbidostat tubing](./img/fig1_tubing_scheme.jpg)<br>
 **Figure 1.** General scheme of the morbidostat tubing. Tubing colors:  
  ![](./img/green_square.png) *green* – fresh media, ![](./img/red_square.png) *red* – drug-containing media, ![](./img/blue_square.png) *blue* – air.
 
 <a name='p11'></a>
 ### 1.1 Detailed tubing description
-![Detailed tubing scheme](./img/fig2_detailed_scheme.png)<br>
+![Detailed tubing scheme](./img/fig2_detailed_scheme.jpg)<br>
 **Figure 3.** Detailed tubing scheme.  
 The part numbers are indicated according the supplementary parts specification table.
 
 <a name='p111'></a>
 #### 1.1.1	Media bottles with the connection lines
-![Media bottle](./img/fig3_bottle.png)<br>
+![Media bottle](./img/fig3_bottle.jpg)<br>
 **Figure 3.** Media bottle with tubing.  
 Alpha-numeric parts numbers in parenthesis here and further identify components in the parts specification table.
 
-![Media bottle](./img/fig4_connection_line.png)<br>
+![Media bottle](./img/fig4_connection_line.jpg)<br>
 **Figure 4.** Connection line.
 
 <a name='p112'></a>
 #### 1.1.2 Distribution lines
 
-![Connection line](./img/fig5_p1_distribution.png)<br>
+![Connection line](./img/fig5_p1_distribution.jpg)<br>
 **Figure 5.** Fresh media distribution line.
 
 
-![Connection line](./img/fig6_p2_distribution.png)<br>
+![Connection line](./img/fig6_p2_distribution.jpg)<br>
 **Figure 6.** Drug-containing media distribution line. Tubing scheme is the same as for the line on figure 4 but has an additional elongation segment.
 
 <a name='p113'></a>
 #### 1.1.3 Reactor tubing and reactor
 
-![Reactor](./img/fig7_reactor.png)<br>
+![Reactor](./img/fig7_reactor.jpg)<br>
 **Figure 7.** Reactor and reactor tubing.
 
 <a name='p114'></a>
 #### 1.1.4 Waste lines
 
-![Waste line](./img/fig8_waste.png)<br>
+![Waste line](./img/fig8_waste.jpg)<br>
 **Figure 8.** Waste line.
 
 <a name='p2'></a>
@@ -78,13 +78,13 @@ Morbidostat contains several mechanical parts:
 <a name='p21'></a>
 ### 2.1 Detailed mechanical parts description
 
-![Valve_A](./img/fig9_valve_front.png) ![Valve_B](./img/fig9_valve_top.png)<br>
+![Valve_A](./img/fig9_valve_front.jpg) ![Valve_B](./img/fig9_valve_top.jpg)<br>
 **Figure 9.** Pinch valve for restricting media flow. A – front view; B – top view. Distribution lines are inserted to the channels on the sides. Flow is restricted by servo motors that push wedges that clamp tubing. Bracket, lever and wedges are 3D-printed. The STL files with models could be found in the `3D_printing` folder.
 
-![Pump](./img/fig10_pump.png)<br>
+![Pump](./img/fig10_pump.jpg)<br>
 **Figure 10.** Peristaltic pump for media.
 
-![Stirring motor](./img/fig11_stirring.png)<br>
+![Stirring motor](./img/fig11_stirring.jpg)<br>
 **Figure 11.** Stirring motor with neodymium magnets. STL file for the magnets holders could be found in the `3D_printing` folder.
 
 <a name='p3'></a>
@@ -96,15 +96,15 @@ To prevent this, we are using:
 
 To build Photodiode Voltage output to OD calibration curve we are using barium sulfate calibration standards.
 
-![Tube holders](./img/fig12_rack.png)<br>
+![Tube holders](./img/fig12_rack.jpg)<br>
 **Figure 12.** Tube holders with lasers and photodetectors installed.
 
 <a name='p31'></a>
 ### 3.1 Detailed optics description
-![Photodetector](./img/fig13_detector.png)<br>
+![Photodetector](./img/fig13_detector.jpg)<br>
 **Figure 13.** Photodetector. STL file for the photodetector case could be found in the `3D_printing` folder.
 
-![Laser back](./img/fig14_laser_back.png) ![Laser top](./img/fig14_laser_top.png)<br>
+![Laser back](./img/fig14_laser_back.jpg) ![Laser top](./img/fig14_laser_top.jpg)<br>
 **Figure 14.** Laser. A. Back view, B. View from above. STL files for the laser case and gasket could be found in the `3D_printing` folder.
 
 <a name='p4'></a>
@@ -117,28 +117,28 @@ Electric scheme consists of a few main components:
 4.	Valve servo motors control board
 All morbidostat elements and logic except the agitation are controlled by Arduino 1 board. Arduino 2 board controls only stirring motors.
 
-![Power](./img/fig15_electrical_power.png)<br>
+![Power](./img/fig15_electrical_power.jpg)<br>
 **Figure 15.** Electric power scheme.
 
-![Arduino 1](./img/fig16_Arduino1.png)<br>
+![Arduino 1](./img/fig16_Arduino1.jpg)<br>
 **Figure 16.** Arduino 1 (main control board) wiring scheme.
 
-![Board1 wiring](./img/fig17_board1_wiring.png)<br>
+![Board1 wiring](./img/fig17_board1_wiring.jpg)<br>
 **Figure 17.** Wiring scheme for laser control board 1.
 
-![Board1 scheme](./img/fig18_board1_scheme.png)<br>
+![Board1 scheme](./img/fig18_board1_scheme.jpg)<br>
 **Figure 18.** Electrical scheme for laser control board 1.
 
 ![Board1](./img/fig19_board1.jpg)<br>
 **Figure 19.** Assembled laser control board 1.
 
-![Board2 scheme](./img/fig20_board2_scheme.png)<br>
+![Board2 scheme](./img/fig20_board2_scheme.jpg)<br>
 **Figure 20.** Board 2 is responsible for stirring motors control, powering photodetectors and cleaning the pump control signal.
 
-![Board2](./img/fig21_board2.png)<br>
+![Board2](./img/fig21_board2.jpg)<br>
 **Figure 21.** Assembled control board 2.
 
-![Servo wiring](./img/fig22_servo.png)<br>
+![Servo wiring](./img/fig22_servo.jpg)<br>
 **Figure 22.** Wiring of the servo motor control board.
 
 <a name='p5'></a>
@@ -150,7 +150,7 @@ All 3-D printed parts were made with ABS plastic except for the "O-ring" and “
 
 Water soluble Elmers glue was used on the base of the bed during nylon prints
 
-![3D settings1](./img/figP1.png) ![3D settings2](./img/figP2.png)<br>
+![3D settings1](./img/figP1.jpg) ![3D settings2](./img/figP2.jpg)<br>
 **Figure 23.** Parameters for 3D printer.
 
 <a name='p5.1'></a>
@@ -172,8 +172,8 @@ STL files for printing custom parts for Morbidostat are located in `3D_printing`
 
 Morbidostat was assembled in the custom-made box equipped with thermostat, web-camera and air pump.
 
-![Morbidostat side](./img/fig23_overview_side.png)<br>
+![Morbidostat side](./img/fig23_overview_side.jpg)<br>
 **Figure 24.** Morbidostat. Side view.
 
-![Morbidostat top](./img/fig24_overview_top.png)<br>
+![Morbidostat top](./img/fig24_overview_top.jpg)<br>
 **Figure 25.** Morbidostat. View form above.

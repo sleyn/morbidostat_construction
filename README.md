@@ -24,10 +24,10 @@ Dilution by fresh media below the LT once per hour helps to avoid reactor drying
 
 Morbidostat was assembled in the custom-made box equipped with thermostat, web-camera and air pump.
 
-![Morbidostat side](./img/fig23_overview_side.png)<br>
+![Morbidostat side](./img/fig23_overview_side.jpg)<br>
 **Figure 1.** Morbidostat. Side view.
 
-![Morbidostat top](./img/fig24_overview_top.png)<br>
+![Morbidostat top](./img/fig24_overview_top.jpg)<br>
 **Figure 2.** Morbidostat. View form above.
 
 ## References

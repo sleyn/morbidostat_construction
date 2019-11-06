@@ -2,7 +2,7 @@
 
 # Standard operating procedures
 
-![Workflow scheme](./img/SOP_fig1.png)
+![Workflow scheme](./img/SOP_fig1.jpg)
 **Figure 1.** Morbidostat run procedure scheme.
 
 # Table of contents
