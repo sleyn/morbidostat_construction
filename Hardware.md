@@ -1,9 +1,21 @@
 # Morbidostat hardware components
 
-- [1. Fluidics](#fluidics)
-  * [1.1 Detailed tubing description](#detailed-tubing-description)
+- [1. Fluidics](#p1)
+  * [1.1 Detailed tubing description](#p11)
+    * [1.1.1	Media bottles with the connection lines](#p11)
+    * [1.1.2 Distribution lines](#p112)
+    * [1.1.3 Reactor tubing and reactor](#p113)
+    * [1.1.4 Waste lines](#p114)
+- [2. Mechanics](#p2)
+  * [2.1 Detailed mechanical parts description](#p21)
+- [3. Optics](#p3)
+  * [3.1 Detailed optics description](#p31)
+- [4. Electrical schemes](#p4)
+- [5. 3D-printing](#p5)
+  * [5.1 STL files](#p51)
+- [6. Assembled morbidostat](#p6)
 
-<a name='fluidics'></a>
+<a name='p1'></a>
 ## 1. Fluidics
 Morbidostat has five types of the tubing parts:
 1.	**Media bottles with the connection lines** – store drug-containing and fresh media and connect bottles to the pumps.
@@ -16,12 +28,13 @@ Morbidostat has five types of the tubing parts:
 **Figure 1.** General scheme of the morbidostat tubing. Tubing colors:  
  ![](./img/green_square.png) *green* – fresh media, ![](./img/red_square.png) *red* – drug-containing media, ![](./img/blue_square.png) *blue* – air.
 
-<a name='detailed-tubing-description'></a>
+<a name='p11'></a>
 ### 1.1 Detailed tubing description
 ![Detailed tubing scheme](./img/fig2_detailed_scheme.png)<br>
 **Figure 3.** Detailed tubing scheme.  
 The part numbers are indicated according the supplementary parts specification table.
 
+<a name='p111'></a>
 #### 1.1.1	Media bottles with the connection lines
 ![Media bottle](./img/fig3_bottle.png)<br>
 **Figure 3.** Media bottle with tubing.  
@@ -30,6 +43,7 @@ Alpha-numeric parts numbers in parenthesis here and further identify components 
 ![Media bottle](./img/fig4_connection_line.png)<br>
 **Figure 4.** Connection line.
 
+<a name='p112'></a>
 #### 1.1.2 Distribution lines
 
 ![Connection line](./img/fig5_p1_distribution.png)<br>
@@ -39,16 +53,19 @@ Alpha-numeric parts numbers in parenthesis here and further identify components 
 ![Connection line](./img/fig6_p2_distribution.png)<br>
 **Figure 6.** Drug-containing media distribution line. Tubing scheme is the same as for the line on figure 4 but has an additional elongation segment.
 
+<a name='p113'></a>
 #### 1.1.3 Reactor tubing and reactor
 
 ![Reactor](./img/fig7_reactor.png)<br>
 **Figure 7.** Reactor and reactor tubing.
 
+<a name='p114'></a>
 #### 1.1.4 Waste lines
 
 ![Waste line](./img/fig8_waste.png)<br>
 **Figure 8.** Waste line.
 
+<a name='p2'></a>
 ## 2. Mechanics
 
 Morbidostat contains several mechanical parts:
@@ -56,6 +73,7 @@ Morbidostat contains several mechanical parts:
 2. Two pumps for fresh and drug-containing media;
 3. Step motors for stirring magnetic bars in the reactors.
 
+<a name='p21'></a>
 ### 2.1 Detailed mechanical parts description
 
 ![Valve_A](./img/fig9_valve_front.png) ![Valve_B](./img/fig9_valve_top.png)<br>
@@ -67,6 +85,7 @@ Morbidostat contains several mechanical parts:
 ![Stirring motor](./img/fig11_stirring.png)<br>
 **Figure 11.** Stirring motor with neodymium magnets. STL file for the magnets holders could be found in the `3D_printing` folder.
 
+<a name='p3'></a>
 ## 3. Optics
 Correct work of the morbidostat relies on the reliable OD measurements. For this we measure intensity of the laser beam that goes through the culture. Use of the round culture tubes as the reactors brings a problem of lens effect when laser beam moves aside of the detector.
 To prevent this, we are using:  
@@ -78,6 +97,7 @@ To build Photodiode Voltage output to OD calibration curve we are using barium s
 ![Tube holders](./img/fig12_rack.png)<br>
 **Figure 12.** Tube holders with lasers and photodetectors installed.
 
+<a name='p31'></a>
 ### 3.1 Detailed optics description
 ![Photodetector](./img/fig13_detector.png)<br>
 **Figure 13.** Photodetector. STL file for the photodetector case could be found in the `3D_printing` folder.
@@ -85,6 +105,7 @@ To build Photodiode Voltage output to OD calibration curve we are using barium s
 ![Laser back](./img/fig14_laser_back.png) ![Laser top](./img/fig14_laser_top.png)<br>
 **Figure 14.** Laser. A. Back view, B. View from above. STL files for the laser case and gasket could be found in the `3D_printing` folder.
 
+<a name='p4'></a>
 ## 4. Electrical schemes
 
 Electric scheme consists of a few main components:
@@ -118,6 +139,7 @@ All morbidostat elements and logic except the agitation are controlled by Arduin
 ![Servo wiring](./img/fig22_servo.png)<br>
 **Figure 22.** Wiring of the servo motor control board.
 
+<a name='p5'></a>
 ## 5. 3D-printing
 
 All 3-D printed parts were made with ABS plastic except for the "O-ring" and “Laser gasket” that were made with bridge nylon
@@ -129,7 +151,22 @@ Water soluble Elmers glue was used on the base of the bed during nylon prints
 ![3D settings1](./img/figP1.png) ![3D settings2](./img/figP2.png)<br>
 **Figure 23.** Parameters for 3D printer.
 
-## 6. Assembled Morbidostat
+<a name='p5.1'></a>
+### 5.1 STL files
+STL files for printing custom parts for Morbidostat are located in `3D_printing` folder.
+
+- `DiodeMount.stl` - Photodiode case.
+- `LaserGasket.stl` - Gasket used for the laser positioning inside the case.
+- `LaserHolder.stl` - Laser case.
+- `MagnetHolder.stl` - A cap for stepper motors with the places for magnets.
+- `TestTubeHolder.stl` - Reactor tube holder.
+- `TopTubeGasket.stl` - O-ring for reactor stabilization.
+- `Valve.stl` - Valve bracket that holds servo motors and tubing.
+- `ValveLever.stl` - Oval lever for servo motors. It pushes wedges that close tubing.
+- `ValveWedge.stl` - Wedges for tube closing.
+
+<a name='p6'></a>
+## 6. Assembled morbidostat
 
 Morbidostat was assembled in the custom-made box equipped with thermostat, web-camera and air pump.
 
