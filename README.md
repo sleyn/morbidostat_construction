@@ -5,6 +5,7 @@ Detailed description of morbidostat components:
 1. [Hardware](./Hardware.md)
 2. [Software](./Software.md)
 3. [Standard operating procedures](./SOP.md)
+4. [Spreadsheet with componets specifications](./aux_files/components.xlsx)
 
 ## General principles
 We constructed our morbidostat based on the same principles that were described in the Toprak et al. paper <a href='#link1'>[1]</a>. In short:  
