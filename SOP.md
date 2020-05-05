@@ -169,7 +169,7 @@ First fill line with a Pump 2 media (with a drug). Then Fill line with Pump 1 me
   -	Spin again, same parameters
   -	Remove supernatant, resuspend in 5 mL each (washing step, optional)
   -	Variation – make one or two duplicate aliquots.  
-  -	Spin, resuspend by pipette in 1.5 mL (for one aliquot) – as done for GP6;  [option -   in 3 mL (to split between two tubes, depends on the number of cells and importance)]
+  -	Spin, resuspend by pipette in 1.5 mL (for one aliquot);  [option -   in 3 mL (to split between two tubes, depends on the number of cells and importance)]
   -	Transfer to color-coded (by cycle) 2 mL Eppendorf, label on top
   -	Spin in microcentrifuge (5 min, 14,000)
   -	Remove super, freeze pellets in in liquid N2, put in -80 box
