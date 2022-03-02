@@ -42,8 +42,8 @@ McFarland
 3.	Vortex standards vigorously.
 4.	Take aliquots of standards to check McFarland and OD600 values on the McFarland densitometer and spectrophotometer.
 5.	Mark true values on the upper part of the tubes.
-6.  Measure values on warmed morbidostat and make linear regression TrueValue (Od or MF) ~ Mesurement. The R^2 should be more then 0.97.
-7.  Type values in the Calibration tab of Software. For future calibration para
+6.  Measure values on warmed morbidostat and make linear regression TrueValue (Od or MF) ~ log(Mesurement). The R^2 should be more then 0.97.
+7.  Type values in the Calibration tab of Software.
 
 <a name='sop2'></a>
 ### Morbidostat assembly
