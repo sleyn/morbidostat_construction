@@ -22,6 +22,8 @@
 <a name='sop1'></a>
 ### Calibration
 
+The goal of calibration is to find **slope (C)** and **intercept (V0)** for equation **OD600 = V0 + C\*log(Voltage)**, where *Voltage* is output from the photosensors and *OD600* is measured Optical Density (with 600nm wavelength) for a calibration standard.
+
 We used BaCl2 suspension as calibration standards.
 1.	Prepare:
   -	150 ml 1% H2SO4
